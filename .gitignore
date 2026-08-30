@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# uv / venv
+.venv/
+.python-version
+
+# Data & artifacts (Phase 00: raw archives, panel tables, parquet/duckdb)
+data/
+*.duckdb
+*.parquet
+
+# Model artifacts
+models/
+*.pkl
+*.joblib
+
+# Env / secrets
+.env
+.env.*
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
