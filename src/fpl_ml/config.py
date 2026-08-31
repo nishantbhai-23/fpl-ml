@@ -18,6 +18,13 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DATA_ROOT = PROJECT_ROOT / "data"
 RAW_ROOT = DATA_ROOT / "raw"
 
+# The `data` branch, checked out beside the code via
+# `git worktree add archive data`. Two namespaces, kept apart on purpose:
+# `raw/` is what we captured ourselves and can vouch for the timing of;
+# `backfill/` is a third-party post-hoc reconstruction that we cannot.
+ARCHIVE_ROOT = PROJECT_ROOT / "archive"
+BACKFILL_ROOT = ARCHIVE_ROOT / "backfill"
+
 # Identify ourselves honestly rather than impersonating a browser.
 USER_AGENT = "fpl-ml/0.1 (+https://github.com/nishantbhai-23/fpl-ml)"
 

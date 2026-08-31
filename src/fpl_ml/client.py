@@ -112,7 +112,9 @@ class FplClient:
         ceiling = min(self._backoff_cap, self._backoff_base * (2**attempt))
         return random.uniform(0.0, ceiling)
 
-    async def fetch(self, url: str) -> Response:
+    async def fetch(
+        self, url: str, *, headers: dict[str, str] | None = None
+    ) -> Response:
         """GET ``url``, retrying transient failures. Raises `FetchError`."""
         last_error = "unknown error"
         last_status: int | None = None
@@ -125,7 +127,7 @@ class FplClient:
             # that another request could be using.
             async with self._semaphore:
                 try:
-                    response = await self._client.get(url)
+                    response = await self._client.get(url, headers=headers)
                 except httpx.TransportError as exc:
                     last_status = None
                     last_error = f"transport error: {exc!r}"

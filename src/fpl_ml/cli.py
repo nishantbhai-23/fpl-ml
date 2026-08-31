@@ -6,7 +6,7 @@ import argparse
 import asyncio
 from pathlib import Path
 
-from . import archive, config, snapshot
+from . import archive, backfill, config, panel, snapshot, validate
 
 
 def _build_parser() -> argparse.ArgumentParser:
@@ -35,7 +35,79 @@ def _build_parser() -> argparse.ArgumentParser:
     runs = subcommands.add_parser("runs", help="List captures already on disk.")
     runs.add_argument("--data-root", type=Path, default=config.RAW_ROOT)
 
+    back = subcommands.add_parser(
+        "backfill",
+        help="Vendor historical seasons from the pinned community archive.",
+    )
+    back.add_argument(
+        "--dest",
+        type=Path,
+        default=config.BACKFILL_ROOT,
+        help=f"Where vendored CSVs are written (default: {config.BACKFILL_ROOT}).",
+    )
+    back.add_argument(
+        "--season",
+        action="append",
+        dest="seasons",
+        help="Fetch only this season; repeatable. Default: all.",
+    )
+
+    pan = subcommands.add_parser(
+        "panel",
+        help="Normalise vendored seasons into one tidy panel table.",
+    )
+    pan.add_argument("--source", type=Path, default=config.BACKFILL_ROOT)
+    pan.add_argument("--dest", type=Path, default=config.ARCHIVE_ROOT / "panel")
+    pan.add_argument(
+        "--validate-against",
+        type=Path,
+        default=None,
+        help="A --players capture directory to audit season totals against.",
+    )
+
     return parser
+
+
+def _panel(args: argparse.Namespace) -> int:
+    frame, summary = panel.build(args.source)
+
+    if args.validate_against:
+        summary["validation"] = validate.compare(frame, args.validate_against)
+
+    target = panel.write(frame, summary, args.dest)
+    print(target)
+    print(f"  rows       {summary['rows']:,} x {summary['columns']} columns")
+    print(f"  seasons    {len([s for s, i in summary['seasons'].items() if i['rows']])}")
+    classes = summary["column_classes"]
+    print(
+        f"  classified identity={len(classes['identity'])} "
+        f"pre_deadline={len(classes['pre_deadline'])} "
+        f"outcome={len(classes['outcome'])}"
+    )
+    v = summary.get("validation")
+    if v and v.get("matched"):
+        print(
+            f"  validated  {v['agreed']:,}/{v['matched']:,} season totals match "
+            f"FPL's own record ({v['agreement_rate'] * 100:.2f}%)"
+        )
+    return 0
+
+
+def _backfill(args: argparse.Namespace) -> int:
+    seasons = tuple(args.seasons) if args.seasons else backfill.SEASONS
+    manifest = backfill.run(args.dest, seasons=seasons)
+    counts = manifest["counts"]
+
+    print(f"{args.dest}")
+    print(f"  upstream   {backfill.UPSTREAM_REPO} @ {backfill.UPSTREAM_SHA[:12]}")
+    print(f"  fetched    {counts['ok']} files, {counts['missing']} missing")
+    for entry in manifest["entries"]:
+        if entry.get("path") is None:
+            print(f"  MISSING    {entry['season']}/{entry['file']}")
+
+    # Missing files are expected for the earliest seasons, so this is not a
+    # failure -- only a total washout is.
+    return 0 if counts["ok"] else 1
 
 
 def _snapshot(args: argparse.Namespace) -> int:
@@ -88,6 +160,10 @@ def main(argv: list[str] | None = None) -> int:
         return _snapshot(args)
     if args.command == "runs":
         return _runs(args)
+    if args.command == "backfill":
+        return _backfill(args)
+    if args.command == "panel":
+        return _panel(args)
     return 2
 
 
