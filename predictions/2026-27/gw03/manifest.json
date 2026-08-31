@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "season": "2026-27",
+  "gameweek": 3,
+  "deadline": "2026-09-04T17:30:00Z",
+  "made_at": "2026-08-31T19:48:24.784629+00:00",
+  "capture": "2026-08-30T20-01-30Z",
+  "code_version": "1dd7e786b0839ab2418871b4a78347eab8ef9cd4",
+  "models": [
+    {
+      "model": "ppm90_x_minutes",
+      "file": "ppm90_x_minutes.csv",
+      "rows": 626,
+      "sha256": "e5df0e01ce1157036c7f8bde28019a540afb369137ad5b458d044273d055b2f6"
+    },
+    {
+      "model": "rolling_mean5",
+      "file": "rolling_mean5.csv",
+      "rows": 626,
+      "sha256": "423d2433488bf6eb3e73acbdb6ac07a1196add3d8dfa409f48d22d0564178ba9"
+    },
+    {
+      "model": "fpl_xp",
+      "file": "fpl_xp.csv",
+      "rows": 626,
+      "sha256": "657e2b506fe34e16718cba71e25373406714618902c45679edfefeb3f5d4ffc3"
+    },
+    {
+      "model": "crowd",
+      "file": "crowd.csv",
+      "rows": 626,
+      "sha256": "55fcd4a69ea134e92c24470ca6db0ba532a548e66f2f6c2f8f2364d494dee04c"
+    }
+  ],
+  "context": {
+    "season": "2026-27",
+    "next_gameweek": 3,
+    "deadline": "2026-09-04T17:30:00Z",
+    "capture": "2026-08-30T20-01-30Z",
+    "completed_rows": 1236,
+    "upcoming_rows": 626
+  }
+}
