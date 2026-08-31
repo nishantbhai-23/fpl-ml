@@ -6,7 +6,7 @@ import argparse
 import asyncio
 from pathlib import Path
 
-from . import archive, backfill, config, panel, snapshot, validate
+from . import archive, backfill, config, snapshot
 
 
 def _build_parser() -> argparse.ArgumentParser:
@@ -69,6 +69,11 @@ def _build_parser() -> argparse.ArgumentParser:
 
 
 def _panel(args: argparse.Namespace) -> int:
+    # Imported here, not at module scope: these pull in polars, and the
+    # scheduled capture path should not depend on a dataframe library it never
+    # uses. Capture is the one step whose failure is unrecoverable.
+    from . import panel, validate
+
     frame, summary = panel.build(args.source)
 
     if args.validate_against:
