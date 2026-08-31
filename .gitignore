@@ -1,3 +1,7 @@
 .venv/
 __pycache__/
 .DS_Store
+
+# Derived: rebuild with `fpl-ml panel`. Deterministic from backfill/ at the
+# pinned upstream SHA plus the code version, so committing it would just churn.
+panel/
