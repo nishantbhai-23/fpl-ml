@@ -6,7 +6,7 @@ import argparse
 import asyncio
 from pathlib import Path
 
-from . import archive, backfill, config, snapshot
+from . import archive, backfill, config, predictions, snapshot
 
 
 def _build_parser() -> argparse.ArgumentParser:
@@ -65,7 +65,65 @@ def _build_parser() -> argparse.ArgumentParser:
         help="A --players capture directory to audit season totals against.",
     )
 
+    pred = subcommands.add_parser(
+        "predict",
+        help="Predict the upcoming gameweek and write it to the prediction log.",
+    )
+    pred.add_argument(
+        "--capture",
+        type=Path,
+        default=None,
+        help="A --players capture to build from. Default: the newest one.",
+    )
+    pred.add_argument("--data-root", type=Path, default=config.RAW_ROOT)
+    pred.add_argument(
+        "--dest", type=Path, default=config.ARCHIVE_ROOT / "predictions"
+    )
+
     return parser
+
+
+def _predict(args: argparse.Namespace) -> int:
+    import polars as pl
+
+    from . import baselines, features, live
+
+    capture = args.capture
+    if capture is None:
+        runs = [
+            r
+            for r in archive.list_runs(args.data_root)
+            if (r / "element-summary").exists()
+        ]
+        if not runs:
+            print("no --players capture found; run `fpl-ml snapshot --players` first")
+            return 1
+        capture = runs[-1]
+
+    frame, context = live.build(capture)
+    featured = features.build(frame)
+    gameweek = int(context["next_gameweek"])
+    target = featured.filter(pl.col("round") == gameweek)
+
+    produced = {
+        name: baselines.predict(target, name) for name in baselines.BASELINES
+    }
+    written = predictions.write(
+        args.dest,
+        season=str(context["season"]),
+        gameweek=gameweek,
+        deadline=context.get("deadline"),
+        capture=capture.name,
+        predictions=produced,
+        context=context,
+    )
+
+    print(written)
+    print(f"  season     {context['season']} gameweek {gameweek}")
+    print(f"  deadline   {context['deadline']}")
+    print(f"  capture    {capture.name}")
+    print(f"  models     {', '.join(produced)}  ({target.height} players each)")
+    return 0
 
 
 def _panel(args: argparse.Namespace) -> int:
@@ -169,6 +227,8 @@ def main(argv: list[str] | None = None) -> int:
         return _backfill(args)
     if args.command == "panel":
         return _panel(args)
+    if args.command == "predict":
+        return _predict(args)
     return 2
 
 

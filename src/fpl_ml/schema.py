@@ -54,6 +54,9 @@ IDENTITY: frozenset[str] = frozenset(
         "kickoff_time",
         "kickoff_time_formatted",
         "modified",
+        # Which source a row came from. Carried so that captures and vendored
+        # history stay distinguishable after they share a table.
+        "provenance",
     }
 )
 
@@ -67,6 +70,14 @@ PRE_DEADLINE: frozenset[str] = frozenset(
         "xP",  # FPL's own expected points, published before the deadline
         "loaned_in",  # a long-removed FPL feature, present in early seasons
         "loaned_out",
+        # Availability, published by FPL before the deadline. These exist only
+        # in our own captures -- the vendored history has no equivalent at all,
+        # which is the single biggest reason the capture archive exists. A
+        # manager knows before the deadline that a player is suspended; the
+        # backfill cannot tell you that about any past gameweek.
+        "status",  # a=available, d=doubtful, i=injured, s=suspended, u=unavailable
+        "chance_of_playing",  # FPL's own 0/25/50/75/100
+        "news",  # the free-text explanation
     }
 )
 
