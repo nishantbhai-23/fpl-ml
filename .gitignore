@@ -8,8 +8,11 @@ __pycache__/
 .venv/
 .python-version
 
-# Data & artifacts (Phase 00: raw archives, panel tables, parquet/duckdb)
+# Scratch captures from local runs. The real archive is the `data` branch,
+# checked out at archive/ via `git worktree add archive data`.
 data/
+archive/
+
 *.duckdb
 *.parquet
 

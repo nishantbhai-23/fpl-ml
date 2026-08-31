@@ -6,7 +6,7 @@ import json
 
 import httpx
 
-from fpl_ml import archive, snapshot
+from fpl_ml import archive, config, snapshot
 from fpl_ml.client import FplClient
 
 # Deliberately ugly: irregular whitespace and an escaped unicode sequence.
@@ -106,6 +106,28 @@ async def test_player_sweep_fetches_every_element(tmp_path):
     manifest = snapshot.read_manifest(run_dir)
     assert manifest["include_players"] is True
     assert manifest["counts"] == {"ok": 4, "failed": 0}  # bootstrap, fixtures, 2 players
+
+
+async def test_capture_is_usable_when_bootstrap_landed(tmp_path):
+    # Fixtures failed, but bootstrap is what everything else depends on.
+    async with make_client(fixtures_status=404) as client:
+        run_dir = await snapshot.capture(client, root=tmp_path)
+
+    assert snapshot.is_usable(snapshot.read_manifest(run_dir)) is True
+
+
+def test_capture_is_not_usable_without_bootstrap():
+    assert snapshot.is_usable({"entries": []}) is False
+    assert (
+        snapshot.is_usable(
+            {
+                "entries": [
+                    {"url": config.BOOTSTRAP_URL, "status": 503, "path": None},
+                ]
+            }
+        )
+        is False
+    )
 
 
 def test_player_ids_reads_elements():

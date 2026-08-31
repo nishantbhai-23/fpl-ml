@@ -51,8 +51,14 @@ def _snapshot(args: argparse.Namespace) -> int:
     print(f"  gameweek   current={gameweek['current_event']} next={gameweek['next_event']}")
     print(f"  deadline   {gameweek['next_deadline']}")
 
-    # A failed capture is worth a non-zero exit so a scheduler can notice.
-    return 1 if counts["failed"] else 0
+    for entry in manifest["entries"]:
+        if entry.get("path") is None:
+            print(f"  FAILED     {entry['url']} ({entry.get('error')})")
+
+    # Exit non-zero only when the capture is worthless, not merely imperfect --
+    # a scheduler that goes red for one blipped player request out of 630 will
+    # train you to ignore it, which is worse than no alerting at all.
+    return 0 if snapshot.is_usable(manifest) else 1
 
 
 def _runs(args: argparse.Namespace) -> int:

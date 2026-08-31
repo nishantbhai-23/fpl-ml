@@ -1,0 +1,104 @@
+# Captures the FPL API on a schedule and commits the result to the `data`
+# branch. Code lives on `main`; the archive lives on `data`. They are checked
+# out side by side here, which is why there are two checkout steps.
+name: Snapshot
+
+on:
+  schedule:
+    # Light capture (bootstrap + fixtures, 2 requests) every six hours.
+    #
+    # Deadlines move every week, so no fixed cron can sit reliably just before
+    # one. Rather than chase a moving target with a fragile schedule, capture
+    # on an even cadence and accept that a pre-deadline snapshot may be up to
+    # six hours old. The 02:07 run lands after the overnight price changes.
+    #
+    # Odd minutes on purpose: scheduled workflows queue behind everyone else's
+    # on-the-hour jobs, and public repos are deprioritised, so :00 is the worst
+    # possible choice.
+    - cron: "7 2,8,14,20 * * *"
+    # Full sweep including per-player summaries, Tuesday mornings. Per-player
+    # history only changes once matches are played, so this runs after Monday
+    # night football rather than daily.
+    - cron: "27 3 * * 2"
+  workflow_dispatch:
+    inputs:
+      players:
+        description: "Include per-player summaries (~630 requests)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+# Two captures pushing to the same branch at once would race. Queue instead of
+# cancelling: a late capture is still worth having, and a cancelled one is a
+# hole in the archive that cannot be backfilled.
+concurrency:
+  group: snapshot
+  cancel-in-progress: false
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Check out archive
+        uses: actions/checkout@v4
+        with:
+          ref: data
+          path: archive
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Decide capture mode
+        id: mode
+        env:
+          SCHEDULE: ${{ github.event.schedule }}
+          PLAYERS: ${{ inputs.players }}
+        run: |
+          if [ "$SCHEDULE" = "27 3 * * 2" ] || [ "$PLAYERS" = "true" ]; then
+            echo "flag=--players" >> "$GITHUB_OUTPUT"
+          else
+            echo "flag=" >> "$GITHUB_OUTPUT"
+          fi
+
+      # continue-on-error so that a partial capture still gets committed below.
+      # Data on disk is worth more than a tidy build status.
+      - name: Capture
+        id: capture
+        continue-on-error: true
+        run: uv run fpl-ml snapshot ${{ steps.mode.outputs.flag }} --data-root archive/raw
+
+      - name: Commit to the data branch
+        working-directory: archive
+        run: |
+          set -euo pipefail
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "::error::capture produced no files"
+            exit 1
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Capture $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          # Retry around the small chance of a concurrent push to `data`.
+          for attempt in 1 2 3; do
+            if git push; then
+              exit 0
+            fi
+            echo "push failed (attempt $attempt), rebasing"
+            git pull --rebase origin data
+          done
+          echo "::error::could not push capture"
+          exit 1
+
+      - name: Fail if the capture was unusable
+        if: steps.capture.outcome == 'failure'
+        run: |
+          echo "::error::capture did not retrieve bootstrap-static; see the manifest"
+          exit 1

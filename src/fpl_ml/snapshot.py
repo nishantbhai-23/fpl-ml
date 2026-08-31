@@ -142,3 +142,24 @@ async def run(
 
 def read_manifest(run_dir: Path) -> dict[str, object]:
     return json.loads((run_dir / MANIFEST_NAME).read_text())
+
+
+def is_usable(manifest: dict[str, object]) -> bool:
+    """Did the capture get the one payload everything else depends on?
+
+    Not all failures are equal. Losing a single player summary out of 630 is a
+    blemish -- the data is still there next week, and bootstrap already carries
+    most of what that player's row needs. Losing ``bootstrap-static`` means the
+    capture recorded nothing about who existed, what they cost, or which
+    gameweek it was, and there is no way to reconstruct it.
+
+    Callers use this to decide whether a capture is worth alerting about, so
+    that a transient blip does not train you to ignore red builds.
+    """
+    entries = manifest.get("entries", [])
+    if not isinstance(entries, list):
+        return False
+    for entry in entries:
+        if entry.get("url") == config.BOOTSTRAP_URL:
+            return entry.get("path") is not None
+    return False
