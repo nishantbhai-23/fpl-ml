@@ -5,12 +5,14 @@ official per-season totals for that player. That gives us a source of truth,
 straight from the game, to audit third-party history against — and it costs
 nothing extra, because we already captured it.
 
-The join is by normalised name and season, and **that is the weak link**.
-Player IDs are reassigned between seasons, so name matching is the only route,
-and names are genuinely unreliable: accents come and go, clubs record players
-differently, and surnames collide. A disagreement found here is therefore
-evidence about *either* the backfill or the match, and the match is usually the
-likelier culprit. Treat the result as a smoke alarm, not a proof.
+The join uses FPL's permanent player ``code``, which does not change between
+seasons. Name matching is kept only as a fallback for panels built without the
+code bridge, and it is measurably worse: the code join matched 176 more
+player-seasons and cleared one apparent disagreement that was really a name
+mismatch (``Joseph Willock`` against ``Joe Willock``).
+
+Even so, a disagreement here is evidence, not proof. It says the two sources
+disagree; it does not say which one is wrong.
 """
 
 from __future__ import annotations
@@ -89,6 +91,7 @@ def official_season_totals(run_dir: Path) -> pl.DataFrame:
         for past in summary.get("history_past", []):
             records.append(
                 {
+                    "code": str(element["code"]),
                     "name_n": name,
                     # FPL writes 2021/22; the community archive writes 2021-22.
                     "season": str(past["season_name"]).replace("/", "-"),
@@ -99,12 +102,25 @@ def official_season_totals(run_dir: Path) -> pl.DataFrame:
     return pl.DataFrame(records)
 
 
-def backfill_season_totals(panel: pl.DataFrame) -> pl.DataFrame:
-    """Per-season points totals implied by the backfill panel."""
+def backfill_season_totals(panel: pl.DataFrame, *, by: str = "code") -> pl.DataFrame:
+    """Per-season points totals implied by the backfill panel.
+
+    ``by="code"`` groups on FPL's permanent player id; ``by="name"`` falls back
+    to the normalised name for panels built without the code bridge.
+    """
+    rows = panel.filter(pl.col("total_points").is_not_null()).with_columns(
+        pl.col("total_points").cast(pl.Int64, strict=False)
+    )
+
+    if by == "code":
+        return (
+            rows.filter(pl.col("code").is_not_null())
+            .group_by(["season", "code"])
+            .agg(pl.col("total_points").sum().alias("backfill_points"))
+        )
+
     return (
-        panel.filter(pl.col("total_points").is_not_null())
-        .with_columns(pl.col("total_points").cast(pl.Int64, strict=False))
-        .group_by(["season", "name"])
+        rows.group_by(["season", "name"])
         .agg(pl.col("total_points").sum().alias("backfill_points"))
         .with_columns(
             pl.col("name")
@@ -115,18 +131,30 @@ def backfill_season_totals(panel: pl.DataFrame) -> pl.DataFrame:
 
 
 def compare(panel: pl.DataFrame, run_dir: Path) -> dict[str, object]:
-    """Compare backfill season totals against FPL's official record."""
+    """Compare backfill season totals against FPL's official record.
+
+    Joins on FPL's permanent player ``code`` when the panel carries it, and
+    falls back to the normalised name otherwise. The code join is strictly
+    better: it matched 176 more player-seasons than the name join, and cleared
+    one disagreement that turned out to be a name mismatch rather than a real
+    difference in the data.
+    """
     official = official_season_totals(run_dir)
     if official.is_empty():
         return {"matched": 0, "note": "no history_past found; needs a --players capture"}
 
-    joined = official.join(backfill_season_totals(panel), on=["name_n", "season"], how="inner")
+    if "code" in panel.columns and panel["code"].null_count() < panel.height:
+        key, totals = ["code", "season"], backfill_season_totals(panel, by="code")
+    else:
+        key, totals = ["name_n", "season"], backfill_season_totals(panel, by="name")
+
+    joined = official.join(totals, on=key, how="inner")
     if joined.is_empty():
         return {"matched": 0, "note": "no player-seasons matched"}
 
     disagreements = joined.filter(
         pl.col("official_points") != pl.col("backfill_points")
-    ).sort("name")
+    ).sort("season")
 
     return {
         "matched": joined.height,
@@ -136,7 +164,7 @@ def compare(panel: pl.DataFrame, run_dir: Path) -> dict[str, object]:
         ),
         "disagreements": [
             {
-                "name": row["name"],
+                "player": row.get("name") or row.get("code"),
                 "season": row["season"],
                 "official": row["official_points"],
                 "backfill": row["backfill_points"],

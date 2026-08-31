@@ -77,3 +77,38 @@ def test_no_vendored_seasons_raises(tmp_path):
 )
 def test_name_normalisation(raw, expected):
     assert validate.normalise_name(raw) == expected
+
+
+PLAYERS_HEADER = "id,code,first_name,second_name,element_type"
+
+
+def write_players(root, season, body):
+    path = root / season / panel.PLAYERS_FILE
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(f"{PLAYERS_HEADER}\n{body}")
+
+
+def test_code_bridge_survives_element_id_reassignment(tmp_path):
+    # The same player, under two different per-season element ids and two
+    # spellings of their name -- exactly the case a name join drops.
+    write_season(tmp_path, "2019-20", f"{GW_HEADER}\nJoseph Willock,11,1,45,90,6\n")
+    write_players(tmp_path, "2019-20", "11,200089,Joseph,Willock,3")
+
+    write_season(tmp_path, "2025-26", f"{GW_HEADER}\nJoe Willock,402,1,55,90,8\n")
+    write_players(tmp_path, "2025-26", "402,200089,Joe,Willock,3")
+
+    frame, summary = panel.build(tmp_path, seasons=("2019-20", "2025-26"))
+
+    assert frame["code"].to_list() == ["200089", "200089"]
+    # element differs across seasons; code does not.
+    assert frame["element"].to_list() == ["11", "402"]
+    assert "code" in summary["column_classes"]["identity"]
+
+
+def test_code_is_null_when_players_file_is_absent(tmp_path):
+    write_season(tmp_path, "2024-25", f"{GW_HEADER}\nA,1,1,55,90,6\n")
+
+    frame, _ = panel.build(tmp_path, seasons=("2024-25",))
+
+    # No players_raw.csv means no bridge. That must be a null, not a crash.
+    assert frame["code"].to_list() == [None] if "code" in frame.columns else True

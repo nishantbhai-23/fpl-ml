@@ -84,6 +84,36 @@ def _read_season(source: Path, season: str) -> pl.DataFrame | None:
     return frame.with_columns(pl.lit(season).alias("season"))
 
 
+PLAYERS_FILE = "players_raw.csv"
+
+
+def player_code_map(source: Path, seasons: tuple[str, ...]) -> dict[tuple[str, str], str]:
+    """Map ``(season, element)`` to FPL's permanent player ``code``.
+
+    ``element`` is reassigned every season, so it cannot follow a player across
+    seasons. ``code`` does not change, and ``players_raw.csv`` carries both --
+    which makes that file the bridge between the two.
+
+    This matters more than it looks. Without it the only cross-season link is
+    the player's name, and names move: "Joseph Willock" becomes "Joe Willock",
+    "Alisson Ramses Becker" becomes "Alisson Becker". Those are the same
+    person, and a name join silently drops them.
+    """
+    mapping: dict[tuple[str, str], str] = {}
+    for season in seasons:
+        path = source / season / PLAYERS_FILE
+        if not path.exists():
+            continue
+        text, _ = _decode(path.read_bytes())
+        frame = pl.read_csv(text.encode("utf-8"), infer_schema_length=0, ignore_errors=True)
+        if "id" not in frame.columns or "code" not in frame.columns:
+            continue
+        for element, code in zip(frame["id"], frame["code"], strict=False):
+            if element is not None and code is not None:
+                mapping[(season, str(element))] = str(code)
+    return mapping
+
+
 def build(
     source: Path,
     *,
@@ -114,6 +144,19 @@ def build(
     # from a season must land as null rather than silently aligning to the
     # wrong field.
     panel = pl.concat(frames, how="diagonal_relaxed")
+
+    # Attach the permanent player code, so a player can be followed between
+    # seasons without a name match.
+    codes = player_code_map(source, seasons)
+    if codes and "element" in panel.columns:
+        panel = panel.with_columns(
+            pl.struct(["season", "element"])
+            .map_elements(
+                lambda row: codes.get((row["season"], str(row["element"]))),
+                return_dtype=pl.Utf8,
+            )
+            .alias("code")
+        )
 
     present = set(panel.columns)
     summary: dict[str, object] = {

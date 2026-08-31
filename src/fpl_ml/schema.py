@@ -35,6 +35,10 @@ IDENTITY: frozenset[str] = frozenset(
         "season",
         "name",
         "element",
+        # FPL's permanent player identifier, unlike `element` which is
+        # reassigned every season. Joined in from players_raw.csv by panel.py.
+        # This is the correct key for following one player across seasons.
+        "code",
         "id",
         "position",
         "team",
