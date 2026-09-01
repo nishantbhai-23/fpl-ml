@@ -68,14 +68,28 @@ def write(
     ``name``, ``position`` and ``prediction``.
     """
     target = gameweek_directory(root, season, gameweek)
-    if target.exists():
-        raise FileExistsError(
-            f"{target} already exists. Predictions are append-only: a prediction "
-            "that can be rewritten after the results arrive proves nothing."
-        )
-    target.mkdir(parents=True)
+    target.mkdir(parents=True, exist_ok=True)
 
-    entries = []
+    # What makes a prediction evidence is that it was fixed before the answer
+    # existed -- not that its folder was empty. So the guard is the deadline,
+    # and adding another model before that deadline is legitimate. Rewriting a
+    # model already on disk never is.
+    if deadline is not None and archive.utc_now().isoformat() > deadline:
+        raise ValueError(
+            f"the deadline for {season} gw{gameweek} ({deadline}) has passed; "
+            "writing a prediction now would not be a prediction."
+        )
+
+    existing = read_manifest(target).get("models", []) if (target / MANIFEST_NAME).exists() else []
+    already = {entry["model"] for entry in existing}
+    clashes = already & set(predictions)
+    if clashes:
+        raise FileExistsError(
+            f"{', '.join(sorted(clashes))} already logged for {season} gw{gameweek}. "
+            "A prediction that can be rewritten proves nothing."
+        )
+
+    entries = list(existing)
     for name, frame in predictions.items():
         ordered = frame.sort("prediction", descending=True).with_columns(
             pl.int_range(1, frame.height + 1).alias("rank")
@@ -93,6 +107,9 @@ def write(
                 "file": f"{name}.csv",
                 "rows": ordered.height,
                 "sha256": archive.sha256_hex(body),
+                # Per model, because models can be added at different times
+                # before the same deadline.
+                "made_at": archive.utc_now().isoformat(),
             }
         )
 
@@ -101,8 +118,11 @@ def write(
         "season": season,
         "gameweek": int(gameweek),
         "deadline": deadline,
-        # Written before the deadline. Compare against `deadline` to confirm.
-        "made_at": archive.utc_now().isoformat(),
+        # Each model carries its own timestamp; compare against `deadline`.
+        "first_written_at": (
+            existing[0]["made_at"] if existing and "made_at" in existing[0]
+            else archive.utc_now().isoformat()
+        ),
         "capture": capture,
         "code_version": code_version(),
         "models": entries,
