@@ -3,9 +3,9 @@
   "season": "2026-27",
   "gameweek": 3,
   "deadline": "2026-09-04T17:30:00Z",
-  "made_at": "2026-08-31T19:48:24.784629+00:00",
+  "first_written_at": "2026-09-01T05:52:21.903561+00:00",
   "capture": "2026-08-30T20-01-30Z",
-  "code_version": "1dd7e786b0839ab2418871b4a78347eab8ef9cd4",
+  "code_version": "1d6f5dd0e877abde91f71755d44d52d20c0dda4d",
   "models": [
     {
       "model": "ppm90_x_minutes",
@@ -30,6 +30,13 @@
       "file": "crowd.csv",
       "rows": 626,
       "sha256": "55fcd4a69ea134e92c24470ca6db0ba532a548e66f2f6c2f8f2364d494dee04c"
+    },
+    {
+      "model": "shrunk_prior",
+      "file": "shrunk_prior.csv",
+      "rows": 626,
+      "sha256": "8e56d27a92b7da940e751a3a20029a3539c2d7f30ee8820d4b61d73e4d6f5e20",
+      "made_at": "2026-09-01T05:52:21.903555+00:00"
     }
   ],
   "context": {
@@ -38,6 +45,7 @@
     "deadline": "2026-09-04T17:30:00Z",
     "capture": "2026-08-30T20-01-30Z",
     "completed_rows": 1236,
-    "upcoming_rows": 626
+    "upcoming_rows": 626,
+    "prior": "k=2.18 (higher means more shrinkage), grand mean=1.15"
   }
 }
