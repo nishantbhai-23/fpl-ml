@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-09-07T07:16:08.459154+00:00",
+  "completed_at": "2026-09-07T07:16:08.714380+00:00",
+  "run_directory": "2026-09-07T07-16-08Z",
+  "include_players": false,
+  "gameweek": {
+    "current_event": 3,
+    "next_event": 4,
+    "next_deadline": "2026-09-12T12:30:00Z"
+  },
+  "counts": {
+    "ok": 2,
+    "failed": 0
+  },
+  "entries": [
+    {
+      "url": "https://fantasy.premierleague.com/api/bootstrap-static/",
+      "status": 200,
+      "path": "bootstrap-static.json.gz",
+      "bytes": 1740007,
+      "sha256": "4eb6bd0bb41fe68273de3689f7b3137905eac90356a2b39cf92da79dd4373e48"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/fixtures/",
+      "status": 200,
+      "path": "fixtures.json.gz",
+      "bytes": 186375,
+      "sha256": "8f2820a4ca9112b999a3ee91ab1907a45e7f15c509e13a5bc5323d8b4df5c41b"
+    }
+  ]
+}
