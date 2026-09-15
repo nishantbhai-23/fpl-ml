@@ -1,0 +1,4645 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-09-15T08:51:02.711458+00:00",
+  "completed_at": "2026-09-15T08:51:05.466535+00:00",
+  "run_directory": "2026-09-15T08-51-02Z",
+  "include_players": true,
+  "gameweek": {
+    "current_event": 4,
+    "next_event": 5,
+    "next_deadline": "2026-09-18T17:30:00Z"
+  },
+  "counts": {
+    "ok": 661,
+    "failed": 0
+  },
+  "entries": [
+    {
+      "url": "https://fantasy.premierleague.com/api/bootstrap-static/",
+      "status": 200,
+      "path": "bootstrap-static.json.gz",
+      "bytes": 1756723,
+      "sha256": "ed0d374632de4889bad848751fa3871830feaead4411591958217aede3619c07"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/1/",
+      "status": 200,
+      "path": "element-summary/1.json.gz",
+      "bytes": 14704,
+      "sha256": "e2fe682da3b43f1eb3c5530a38e3724c28ae96aaee2a289cea757f210f3380c3"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/10/",
+      "status": 200,
+      "path": "element-summary/10.json.gz",
+      "bytes": 15875,
+      "sha256": "68fb3cc7c0b21e6fcb337399f491bd49018d3c5b13b9e3ad0bdbdc53edc934e0"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/100/",
+      "status": 200,
+      "path": "element-summary/100.json.gz",
+      "bytes": 14037,
+      "sha256": "64d57969f9f9fcf7f85e06de09a50fbccd21782ef370932dc20969a88d7a7d70"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/101/",
+      "status": 200,
+      "path": "element-summary/101.json.gz",
+      "bytes": 21659,
+      "sha256": "81403daeb03916161e03e501b69c8ad627b6b85560c749e297a7549e5bb8c0cc"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/102/",
+      "status": 200,
+      "path": "element-summary/102.json.gz",
+      "bytes": 14080,
+      "sha256": "6790c7282cd7bafa6a5e6e5fa7b5058b55623e0b821efb12cffdd2d981c78d70"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/103/",
+      "status": 200,
+      "path": "element-summary/103.json.gz",
+      "bytes": 14606,
+      "sha256": "2ae8fe3c21fb0e14a6c2c6fbdebafea6487c453cb95951c897f315e39614c80a"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/104/",
+      "status": 200,
+      "path": "element-summary/104.json.gz",
+      "bytes": 14642,
+      "sha256": "f68a94c4a8e82e12a95f23c623f382afa6d5b2e1aa0f71a97c09d98a790a326e"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/105/",
+      "status": 200,
+      "path": "element-summary/105.json.gz",
+      "bytes": 14070,
+      "sha256": "f2c8fa31cb8692df3ab8015c27881bf57648048675a5b112ef2f8ef767436803"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/106/",
+      "status": 200,
+      "path": "element-summary/106.json.gz",
+      "bytes": 12934,
+      "sha256": "0851deb36da2d058eaa014474a98c33ce9671d00944885f10cdd796366b9fada"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/107/",
+      "status": 200,
+      "path": "element-summary/107.json.gz",
+      "bytes": 12293,
+      "sha256": "840c58db4b61061d40b80b69bd1a230800eaa93b0c4d7e8bbb30cded6565d5e5"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/108/",
+      "status": 200,
+      "path": "element-summary/108.json.gz",
+      "bytes": 18211,
+      "sha256": "b297e020f6680aca40dfb95a200f2fe9e261343bbc2e19f7e3abf6e79d925cb7"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/109/",
+      "status": 200,
+      "path": "element-summary/109.json.gz",
+      "bytes": 13520,
+      "sha256": "15ab21cde9d350213296b8f7e678425cb51c5e146bf6261745a00d04d291bd16"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/11/",
+      "status": 200,
+      "path": "element-summary/11.json.gz",
+      "bytes": 12320,
+      "sha256": "148dfc4b6708acae9fef518616cd7d8d0852cd4368511baf1cb4a1e547aca7ea"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/110/",
+      "status": 200,
+      "path": "element-summary/110.json.gz",
+      "bytes": 12884,
+      "sha256": "c6376ca599e0c39c9a388282e1b3005158af5099b615535578ef2b838102542a"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/111/",
+      "status": 200,
+      "path": "element-summary/111.json.gz",
+      "bytes": 16932,
+      "sha256": "f47a7d5e381c903d2f1f1faba361e1d251e755cb0deff2ddca75548f0068f23f"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/112/",
+      "status": 200,
+      "path": "element-summary/112.json.gz",
+      "bytes": 14147,
+      "sha256": "5fa6f4dfd2f9a7d28e5493164f016a814ddf6a1686143157cc1b13c0f047e504"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/113/",
+      "status": 200,
+      "path": "element-summary/113.json.gz",
+      "bytes": 12922,
+      "sha256": "3f7d94d9fec681097dc3edc0b9fc49cbdbfc21dc1e9aa1792125411425e06620"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/114/",
+      "status": 200,
+      "path": "element-summary/114.json.gz",
+      "bytes": 12319,
+      "sha256": "1238f347381f4afc696c8b2a3f7b94d7565191aa2d0e04d37870e5b7720d17e2"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/115/",
+      "status": 200,
+      "path": "element-summary/115.json.gz",
+      "bytes": 12348,
+      "sha256": "bc3e2d0ffa4b97379fce4293a547d8c4e1fb5ed09aac6b99a4b5748bba17b929"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/116/",
+      "status": 200,
+      "path": "element-summary/116.json.gz",
+      "bytes": 17070,
+      "sha256": "18143bbc22dcb0be31a6766686dac46f8eaa068cdbd1c96c47ae9a76bbe6d479"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/117/",
+      "status": 200,
+      "path": "element-summary/117.json.gz",
+      "bytes": 12280,
+      "sha256": "2fd39fc11c83fb3e9927f79dded5758640b7327b53979b305fe902ed3f6e8f56"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/118/",
+      "status": 200,
+      "path": "element-summary/118.json.gz",
+      "bytes": 13465,
+      "sha256": "789a4025b418f26537cf0235ae15cb8ef3c3ac861957f33f106d67926b344e1b"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/119/",
+      "status": 200,
+      "path": "element-summary/119.json.gz",
+      "bytes": 11704,
+      "sha256": "37ae899bd6051ed393c5c814b9a6a9845939dba3816b2e87c088fd27af569241"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/12/",
+      "status": 200,
+      "path": "element-summary/12.json.gz",
+      "bytes": 16518,
+      "sha256": "cd9fd85b699c62c084b350a420e5f33e258875581cd66c4781b50b3c5aac5e39"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/120/",
+      "status": 200,
+      "path": "element-summary/120.json.gz",
+      "bytes": 11696,
+      "sha256": "ee6f591234de27388cc0a3df1cca2d3c40048e28a0db21680f8b7c2aaddff56e"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/121/",
+      "status": 200,
+      "path": "element-summary/121.json.gz",
+      "bytes": 14087,
+      "sha256": "99009e7c5ccbc8c00b19aa9a602ba978b3ae0832a5a5df09a1bdaf7707176d6b"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/122/",
+      "status": 200,
+      "path": "element-summary/122.json.gz",
+      "bytes": 12898,
+      "sha256": "c0e9421ea89522b515b48702a4238b496a6fb947d5ddbfd2bb9a863757cfd764"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/123/",
+      "status": 200,
+      "path": "element-summary/123.json.gz",
+      "bytes": 14087,
+      "sha256": "dedce302600a7783568f872e7648f05f6a45d94ab25e675926bca71ff6fe25c1"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/124/",
+      "status": 200,
+      "path": "element-summary/124.json.gz",
+      "bytes": 17082,
+      "sha256": "03b4d8dff7dd87010b72de3cd1f7d1c847ee63c1891d30c7ef0296a2b809fcb2"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/125/",
+      "status": 200,
+      "path": "element-summary/125.json.gz",
+      "bytes": 13500,
+      "sha256": "cff7e6d7dcb2df514960e16b55ff398b3fafde3b32e8c4e2d05abb8464a4593d"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/126/",
+      "status": 200,
+      "path": "element-summary/126.json.gz",
+      "bytes": 12885,
+      "sha256": "22c5052bfc1f0ffd60cbf5a3d8651b4d2e5603915852fa0683b8cb43a8a93fb5"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/127/",
+      "status": 200,
+      "path": "element-summary/127.json.gz",
+      "bytes": 12928,
+      "sha256": "7d4e0213eccae1233380d10375c4b78a3f003ce2a48dc7d09ac88831163de521"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/128/",
+      "status": 200,
+      "path": "element-summary/128.json.gz",
+      "bytes": 14041,
+      "sha256": "d7248d32753eab6c6ffce79494d31f91ed995aec32099e2d3320cd02e329c890"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/129/",
+      "status": 200,
+      "path": "element-summary/129.json.gz",
+      "bytes": 14074,
+      "sha256": "38da88d6df7cc2bc101394aa4e988a7221688f3b0d2c8545395664d4eb5bb2b1"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/13/",
+      "status": 200,
+      "path": "element-summary/13.json.gz",
+      "bytes": 17671,
+      "sha256": "cad0455c0ce9415a7f907595e83c917dcfb68646ae84edddc6f1e85bfa26641f"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/130/",
+      "status": 200,
+      "path": "element-summary/130.json.gz",
+      "bytes": 12914,
+      "sha256": "6e649529ab8fea2f231e64251e901ed13ed5bb4a82a5ec4fa1c07a8286db2a0b"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/131/",
+      "status": 200,
+      "path": "element-summary/131.json.gz",
+      "bytes": 13525,
+      "sha256": "3cd581da8ce6ac34d6ad05298443d0206a5d768fb396978db7e105a7e1aa012b"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/132/",
+      "status": 200,
+      "path": "element-summary/132.json.gz",
+      "bytes": 12851,
+      "sha256": "bc7e9aadca3ac57cd45339d471531519d7f4c02713ef25a8e6cf10f188980171"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/133/",
+      "status": 200,
+      "path": "element-summary/133.json.gz",
+      "bytes": 12262,
+      "sha256": "1a3f663ce1a696b424bdf7f56ee6eb59da676256340e139de252344624ea854c"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/134/",
+      "status": 200,
+      "path": "element-summary/134.json.gz",
+      "bytes": 12288,
+      "sha256": "d6b7aaf7bfcd3fbfc320498a56a598440fbbbcc90f02e06938b1ff66c21e9ae7"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/135/",
+      "status": 200,
+      "path": "element-summary/135.json.gz",
+      "bytes": 11706,
+      "sha256": "37ad43b010a14f071bf15dd3fd3d84332ffbee00d3717f815866a29c543c717b"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/136/",
+      "status": 200,
+      "path": "element-summary/136.json.gz",
+      "bytes": 22281,
+      "sha256": "41a490a891ca4678861eeb1637cdc55ca696744ada08f8c80308e17a9fe7c113"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/137/",
+      "status": 200,
+      "path": "element-summary/137.json.gz",
+      "bytes": 12278,
+      "sha256": "b7a842335e15de961d055b6535996c19750e6e3951849acd45340b9501f8f92d"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/138/",
+      "status": 200,
+      "path": "element-summary/138.json.gz",
+      "bytes": 12318,
+      "sha256": "e82f74c3a51dbd56afe1eb60680685d50d8bf64312645f9dfc6e9a1bb2a7b466"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/139/",
+      "status": 200,
+      "path": "element-summary/139.json.gz",
+      "bytes": 14622,
+      "sha256": "4b792b8fc79a65df8b9cf276ac7883f05c602b1556606308629f0f43a2f8ffe5"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/14/",
+      "status": 200,
+      "path": "element-summary/14.json.gz",
+      "bytes": 15296,
+      "sha256": "18ca2851a0697dd05af0fc99c3b074d435cd5247a1b98f3ead9391026f78ef00"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/140/",
+      "status": 200,
+      "path": "element-summary/140.json.gz",
+      "bytes": 15270,
+      "sha256": "353aef9ae049c6a61bac25742fd8aac49715a6286bea3481b7fc4e8fbf0024ac"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/141/",
+      "status": 200,
+      "path": "element-summary/141.json.gz",
+      "bytes": 12858,
+      "sha256": "622f55eea898524204250afdca03d16b1ac1a2300334a3e47f7ff672e1d023e9"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/142/",
+      "status": 200,
+      "path": "element-summary/142.json.gz",
+      "bytes": 15895,
+      "sha256": "d3e8515a555af00bee0635e56d2cf11c62cd6e435a23e424385afa2bab887d8f"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/143/",
+      "status": 200,
+      "path": "element-summary/143.json.gz",
+      "bytes": 15245,
+      "sha256": "f33bbfcbfe7be62a14226f3f9309ff1eb07867c6a1dec9efb1f53bc226c5451e"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/144/",
+      "status": 200,
+      "path": "element-summary/144.json.gz",
+      "bytes": 13516,
+      "sha256": "bcca59cf0705b11d4f388f8b55bd6c7aa723e9830146021274de0ad95a124e47"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/145/",
+      "status": 200,
+      "path": "element-summary/145.json.gz",
+      "bytes": 15247,
+      "sha256": "67769efa66c29c0781b81b136a0891d08589bb20ab640d8bda9173d4113d0049"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/146/",
+      "status": 200,
+      "path": "element-summary/146.json.gz",
+      "bytes": 14044,
+      "sha256": "050e2b0682986e3cf51b2e2db09f2b61ad62e9b38e2741436fa2ce8523b970f7"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/147/",
+      "status": 200,
+      "path": "element-summary/147.json.gz",
+      "bytes": 15851,
+      "sha256": "da8310e56b3f16db1c57489dd99e183e270b4b27942f60512ceec1533768d534"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/148/",
+      "status": 200,
+      "path": "element-summary/148.json.gz",
+      "bytes": 12325,
+      "sha256": "13aa9e6f482163a02ad5b670cd598c65df066a8b7ff50e52a7444d966c10a643"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/149/",
+      "status": 200,
+      "path": "element-summary/149.json.gz",
+      "bytes": 14093,
+      "sha256": "9115ac9769628c354b75b8c73b7a57b5c0609c25e32804f3f3eeffdd34402f47"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/15/",
+      "status": 200,
+      "path": "element-summary/15.json.gz",
+      "bytes": 15329,
+      "sha256": "c4c5e94b23a1c396815351cc3d20588bad188b0bb6d4abdb5340c1874bac4862"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/150/",
+      "status": 200,
+      "path": "element-summary/150.json.gz",
+      "bytes": 12281,
+      "sha256": "5ddce94f54310b40f91289135a3afd344225b4dccbf1aeec8ae4df05ae692ddf"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/151/",
+      "status": 200,
+      "path": "element-summary/151.json.gz",
+      "bytes": 13471,
+      "sha256": "02a75b641e8a99fa02f4e8a7a684697979806277c151c49dbe0bbe590c35d82d"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/152/",
+      "status": 200,
+      "path": "element-summary/152.json.gz",
+      "bytes": 11723,
+      "sha256": "974144673dc6036fc2190e4c91ff5c2eda97d93ac17a89ba1c1c6fb54ec9d736"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/153/",
+      "status": 200,
+      "path": "element-summary/153.json.gz",
+      "bytes": 13492,
+      "sha256": "69130ea8f412407cb8108829d7639f1296cfbb896862aba63b283dd1c98fff43"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/154/",
+      "status": 200,
+      "path": "element-summary/154.json.gz",
+      "bytes": 15891,
+      "sha256": "2419014a17e2ac1e63250ee918e567ec10c39e3b577fc7a2e3a0d413447be8d2"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/155/",
+      "status": 200,
+      "path": "element-summary/155.json.gz",
+      "bytes": 14165,
+      "sha256": "79b01f25a5cc2e2c90183b14a60de5133cc70fb6c5b68cb3892e1ec201795f7f"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/156/",
+      "status": 200,
+      "path": "element-summary/156.json.gz",
+      "bytes": 15892,
+      "sha256": "5262dd9220b7d7adadae89d486c68cd561cbe6e416f887b43852359e9cfc818e"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/157/",
+      "status": 200,
+      "path": "element-summary/157.json.gz",
+      "bytes": 12319,
+      "sha256": "190438be2eebf6a671ea49f5f0afc434dcb05784d79847c585f167da7ed40913"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/158/",
+      "status": 200,
+      "path": "element-summary/158.json.gz",
+      "bytes": 12289,
+      "sha256": "676a61f5e407b90341bcc76c2a96a221f8334d6c45b252f24f7a82cc5ee2c19c"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/159/",
+      "status": 200,
+      "path": "element-summary/159.json.gz",
+      "bytes": 15276,
+      "sha256": "d36ad467687779652e5e68268f08d54cf821888423ef47267c963d7480928ac2"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/16/",
+      "status": 200,
+      "path": "element-summary/16.json.gz",
+      "bytes": 14088,
+      "sha256": "ea1b598b4d22b7453c0ae7891888b6db9db0ce3c8becd6076d44e4dc5be57d22"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/160/",
+      "status": 200,
+      "path": "element-summary/160.json.gz",
+      "bytes": 14671,
+      "sha256": "cc8af19b80ac2656b1189ac16c0d0b64b823c4a4dd532405b36c4abe3756e600"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/161/",
+      "status": 200,
+      "path": "element-summary/161.json.gz",
+      "bytes": 14640,
+      "sha256": "790460cf11e9db09bae37345ab96e55e82073989fa0f062aa8f891f6203a59bc"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/162/",
+      "status": 200,
+      "path": "element-summary/162.json.gz",
+      "bytes": 14078,
+      "sha256": "acbe6186b0dfc86f43be8c46582c1fdb8c611dc77a455464ba19a70fed6b3290"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/163/",
+      "status": 200,
+      "path": "element-summary/163.json.gz",
+      "bytes": 12290,
+      "sha256": "d0ef6f0ecd515eb887360b0981c81bc7bfef590b08233faf8f97e6f3d244bcce"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/164/",
+      "status": 200,
+      "path": "element-summary/164.json.gz",
+      "bytes": 11704,
+      "sha256": "add54decb014e7e05a54fc152e46a875b85b89e8569d7fb3e9473b24934a37f2"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/165/",
+      "status": 200,
+      "path": "element-summary/165.json.gz",
+      "bytes": 14726,
+      "sha256": "06a461016e52dd30fc8a8af9b0e0c4c70e6ea1e89bdcbd32714190ca022ada20"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/166/",
+      "status": 200,
+      "path": "element-summary/166.json.gz",
+      "bytes": 13504,
+      "sha256": "01c4a1622d1e99f148dba6476f591e14592ee03abb2fd6b182fed90694de8a58"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/167/",
+      "status": 200,
+      "path": "element-summary/167.json.gz",
+      "bytes": 14679,
+      "sha256": "878627080089634379722ee98cc161f3c8e2d9afe723827a43da20fd475240f1"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/168/",
+      "status": 200,
+      "path": "element-summary/168.json.gz",
+      "bytes": 12877,
+      "sha256": "8e18ffc0a0b2e09d68a2335d144d047f8a32c16d56bcbc7ede4362f1aad18745"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/169/",
+      "status": 200,
+      "path": "element-summary/169.json.gz",
+      "bytes": 12866,
+      "sha256": "244ff3c51f1f95d6cb63ef4b6d847b34e1beaa443911ae82a44e1b6d5e607fba"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/17/",
+      "status": 200,
+      "path": "element-summary/17.json.gz",
+      "bytes": 14074,
+      "sha256": "4e292036155de9e044bd036c919818bdcc9d704fe94bcae507667965a8e0d895"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/170/",
+      "status": 200,
+      "path": "element-summary/170.json.gz",
+      "bytes": 11714,
+      "sha256": "b7b103771da2b009b84ec410c3a6f2461159de4b070a1df27f84825a50903b52"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/171/",
+      "status": 200,
+      "path": "element-summary/171.json.gz",
+      "bytes": 11719,
+      "sha256": "c6bcefe78b3e24612dbb12189130fe66d1a550d98e47b2735a4aa90609b5886e"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/172/",
+      "status": 200,
+      "path": "element-summary/172.json.gz",
+      "bytes": 11711,
+      "sha256": "fa7ebfe0f222f99ab9f9af9489d531288b00ca08456ca598610c2fab9140ee70"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/173/",
+      "status": 200,
+      "path": "element-summary/173.json.gz",
+      "bytes": 14049,
+      "sha256": "9eee9366d95e255928c212d1eddbc9177e873c9870cfeffe4f9627b232b8d96d"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/174/",
+      "status": 200,
+      "path": "element-summary/174.json.gz",
+      "bytes": 11712,
+      "sha256": "2c7dd44a637836a832943260059c42b482b52c4887c4f6e0ba3193c66c634edf"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/175/",
+      "status": 200,
+      "path": "element-summary/175.json.gz",
+      "bytes": 11748,
+      "sha256": "93dc30ea157a4ec13583bf95292a886df02beea21c17855d74030756a1366afd"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/176/",
+      "status": 200,
+      "path": "element-summary/176.json.gz",
+      "bytes": 11728,
+      "sha256": "b5a224c3cba91dd06e1072d47ba5eb0a143b07656f5cffcfd7588a3b1141c9ed"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/177/",
+      "status": 200,
+      "path": "element-summary/177.json.gz",
+      "bytes": 14006,
+      "sha256": "cd8fc34b21ca713952265fb353fe50aee2296b086e13707c5cbc7e0de490d106"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/178/",
+      "status": 200,
+      "path": "element-summary/178.json.gz",
+      "bytes": 11701,
+      "sha256": "905684c42c0faa8509ad548ec9fd85f4f77368b80c202e7ec5ee6efd84ae3c57"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/179/",
+      "status": 200,
+      "path": "element-summary/179.json.gz",
+      "bytes": 11701,
+      "sha256": "ea72c53076befdc030b452a8e4deb2dc9890bba5ed01528922e6d764e9b5cd67"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/18/",
+      "status": 200,
+      "path": "element-summary/18.json.gz",
+      "bytes": 15860,
+      "sha256": "401d70b0d21a71dd279dc3ff802b05fab6a5d70fa74ca85b1d0c6c023b936a73"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/180/",
+      "status": 200,
+      "path": "element-summary/180.json.gz",
+      "bytes": 12299,
+      "sha256": "52dd3f270339473b12c23f7a558d800ec453a773c3a8dd156f93331585a1ea46"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/181/",
+      "status": 200,
+      "path": "element-summary/181.json.gz",
+      "bytes": 11697,
+      "sha256": "ab6e37c49225d43ad7f5a37f32b802358e8de2973a69e3d17b852d385492ded6"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/182/",
+      "status": 200,
+      "path": "element-summary/182.json.gz",
+      "bytes": 11724,
+      "sha256": "04a6a98af9cbaa281dc29351178f4f680b782fde2b4bb795ce579b6166de3ff8"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/183/",
+      "status": 200,
+      "path": "element-summary/183.json.gz",
+      "bytes": 11723,
+      "sha256": "f3e4174a5f56ccb2e3a90d817446d3790a2c141c90d2e482a02a72e0d08e05db"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/184/",
+      "status": 200,
+      "path": "element-summary/184.json.gz",
+      "bytes": 12874,
+      "sha256": "157bf22c069871bba180901bbf61d1f2ba20cb427a5b6d9bc0b161f1bbe605a7"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/185/",
+      "status": 200,
+      "path": "element-summary/185.json.gz",
+      "bytes": 11708,
+      "sha256": "b17aca0c3d608817121615afeb1540f41d0e7f4c11bfbcad90a1c08fd6718f7b"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/186/",
+      "status": 200,
+      "path": "element-summary/186.json.gz",
+      "bytes": 11714,
+      "sha256": "ae691370dd16242a320d7f781ddbb5a1af2719b653e2257bb6682b0a33009f32"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/187/",
+      "status": 200,
+      "path": "element-summary/187.json.gz",
+      "bytes": 11697,
+      "sha256": "458365d0e431a3c1f61b8eadb6d8f9d6b603ba9928ad441c9686343c5830a412"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/188/",
+      "status": 200,
+      "path": "element-summary/188.json.gz",
+      "bytes": 11713,
+      "sha256": "0efe640ea27b164f23d620f1e1caa098a48e16f7bb70dc9e5d8ee03b31fb6368"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/189/",
+      "status": 200,
+      "path": "element-summary/189.json.gz",
+      "bytes": 11714,
+      "sha256": "470ce949c7a1ec271cdce74944ecc89738db3d0b25bcd84730fc5b9081250b1b"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/19/",
+      "status": 200,
+      "path": "element-summary/19.json.gz",
+      "bytes": 12321,
+      "sha256": "c6d776e7584b7fa2e2329401ddfe4f710f4defe8f0a9ce9110cfa4a825110d71"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/190/",
+      "status": 200,
+      "path": "element-summary/190.json.gz",
+      "bytes": 12313,
+      "sha256": "2e42736e613f4d3d563641121c96173bb9fc8670fbd3c856e5f1d1d7ac493a01"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/191/",
+      "status": 200,
+      "path": "element-summary/191.json.gz",
+      "bytes": 11710,
+      "sha256": "a1d7aa223f58522a75d734e602fc4cf10d717d27e0afe3a23e4d003dcf91d509"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/192/",
+      "status": 200,
+      "path": "element-summary/192.json.gz",
+      "bytes": 11712,
+      "sha256": "cbd69f494e84b0f9e24ed7067cbed7d319d0fc9aef0923e0dd01c82b2b647772"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/193/",
+      "status": 200,
+      "path": "element-summary/193.json.gz",
+      "bytes": 11710,
+      "sha256": "aa38bc70d832af36eb3db4fd91d9eb0a67fe9d721101071f380d7a7f2ae1c2ec"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/194/",
+      "status": 200,
+      "path": "element-summary/194.json.gz",
+      "bytes": 11723,
+      "sha256": "e0cb980ade64df6cf5d50675518464494f25002688091c9611cd5157fe2a973b"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/195/",
+      "status": 200,
+      "path": "element-summary/195.json.gz",
+      "bytes": 14613,
+      "sha256": "14df5fc5291cfb9f2a20d419c99f59e631632056834c3286028a8c7b92b8e62c"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/196/",
+      "status": 200,
+      "path": "element-summary/196.json.gz",
+      "bytes": 11693,
+      "sha256": "91f366bad3a6237b3a9c6bc8827a03af62da8cc9bd20ff3ead74d9ebfc2931f0"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/197/",
+      "status": 200,
+      "path": "element-summary/197.json.gz",
+      "bytes": 11695,
+      "sha256": "763edfa4f9bc233bc8b442da62ac23f6e6771b69456270aea07d478ec02b481a"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/198/",
+      "status": 200,
+      "path": "element-summary/198.json.gz",
+      "bytes": 15855,
+      "sha256": "01566b546764278b124c860e24c88e16d0601615b7fca1a83e1c4b2f46031696"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/199/",
+      "status": 200,
+      "path": "element-summary/199.json.gz",
+      "bytes": 12287,
+      "sha256": "110ea4e94a00cb1196140baeb08c8786f845e3df3db65416cb8e1f079e782f9b"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/2/",
+      "status": 200,
+      "path": "element-summary/2.json.gz",
+      "bytes": 16375,
+      "sha256": "f745de496ed95e3d7be975d306ff5e37fc5f886e5c9ff6542ad26e0defac0222"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/20/",
+      "status": 200,
+      "path": "element-summary/20.json.gz",
+      "bytes": 12287,
+      "sha256": "a7cbdeff3857184ec926b378440375a3a93ff55b97100f243846e2021dab8f4e"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/200/",
+      "status": 200,
+      "path": "element-summary/200.json.gz",
+      "bytes": 12939,
+      "sha256": "63088bf9c876a85cc8970b66218d6d204f4c9f9ca9c07f68f569ef34195d6841"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/201/",
+      "status": 200,
+      "path": "element-summary/201.json.gz",
+      "bytes": 13562,
+      "sha256": "c9c3a469690d96632c196add055492f6b4de127ca36519ff6f5041911c8ecef6"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/202/",
+      "status": 200,
+      "path": "element-summary/202.json.gz",
+      "bytes": 14098,
+      "sha256": "561fa49efe4637a24f614dbe42c3605e4388dbd6bc1817500174b042ee427c53"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/203/",
+      "status": 200,
+      "path": "element-summary/203.json.gz",
+      "bytes": 12315,
+      "sha256": "f022c99df040f040b7eac5682866100c0afc083127d7772a076938598f1213bf"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/204/",
+      "status": 200,
+      "path": "element-summary/204.json.gz",
+      "bytes": 15891,
+      "sha256": "859b1a0488def3810e6d7249929a68c6b0e829fb828f8b9415cbf01d003d5101"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/205/",
+      "status": 200,
+      "path": "element-summary/205.json.gz",
+      "bytes": 12277,
+      "sha256": "50991114cc4bc62284d4c5e422d0c0ff879e7c2141b2605270ae8f00aeeec963"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/206/",
+      "status": 200,
+      "path": "element-summary/206.json.gz",
+      "bytes": 12871,
+      "sha256": "47dd91a3703e42a9d7ecc49b44aa2e03ec98fb8f286e0a1506a1e2435691e89c"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/207/",
+      "status": 200,
+      "path": "element-summary/207.json.gz",
+      "bytes": 11706,
+      "sha256": "1dc253eea8e6631e7e897cb00de975c8aff5bd449c867124fbc85a6a77708e4d"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/208/",
+      "status": 200,
+      "path": "element-summary/208.json.gz",
+      "bytes": 14108,
+      "sha256": "d4207820a8e6cbfa29bb42456dba07845e173791271f4de6b1265e2846746ab5"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/209/",
+      "status": 200,
+      "path": "element-summary/209.json.gz",
+      "bytes": 14108,
+      "sha256": "c78b39d4d424e5d3d2bdeaa2b59ad1532956523cdcce1d15b91470ac0c34cca7"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/21/",
+      "status": 200,
+      "path": "element-summary/21.json.gz",
+      "bytes": 14657,
+      "sha256": "623f47ed07da2a095d2a31814954a156a5472ffad01923b4bbcc734f1411fd20"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/210/",
+      "status": 200,
+      "path": "element-summary/210.json.gz",
+      "bytes": 13515,
+      "sha256": "df201a7219b26e7aaab91ba324b74e4e91ecc0cd15137318cfe7bc43e5f2134f"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/211/",
+      "status": 200,
+      "path": "element-summary/211.json.gz",
+      "bytes": 12322,
+      "sha256": "6111aea58a1511317a98c01cfdea88b96a515f8387ef306001825e30497588f0"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/212/",
+      "status": 200,
+      "path": "element-summary/212.json.gz",
+      "bytes": 16464,
+      "sha256": "b0366384b246554d98a6c0e10304433905a79a5547ade249c92ba35fe630703b"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/213/",
+      "status": 200,
+      "path": "element-summary/213.json.gz",
+      "bytes": 15268,
+      "sha256": "a829fa68350847b414457b2021364783adb2a70cfa4c801464537501a6478083"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/214/",
+      "status": 200,
+      "path": "element-summary/214.json.gz",
+      "bytes": 12921,
+      "sha256": "4f3626c2e0cf088d5e330d86af778fe3cb26581d99ca74b37597268b8e168c0b"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/215/",
+      "status": 200,
+      "path": "element-summary/215.json.gz",
+      "bytes": 12876,
+      "sha256": "f8d2214356ffa018f2a9ac68453c8414d20db3ad090797cdbcb40531bbaf1a96"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/216/",
+      "status": 200,
+      "path": "element-summary/216.json.gz",
+      "bytes": 12862,
+      "sha256": "b3e519a4e1e74bd7a5312d47e12987da81ec03d31cb7fa5b7c45262f5091f389"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/217/",
+      "status": 200,
+      "path": "element-summary/217.json.gz",
+      "bytes": 13440,
+      "sha256": "d81232dc0a17240e4b8efab17352d2317b7845edcc5ee4599567329a5d254710"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/218/",
+      "status": 200,
+      "path": "element-summary/218.json.gz",
+      "bytes": 14045,
+      "sha256": "34ec7e6f2aa36d67f35da912edc6921a70f4c31eb74a62a4b6c7e6ec4387a3c8"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/219/",
+      "status": 200,
+      "path": "element-summary/219.json.gz",
+      "bytes": 15153,
+      "sha256": "bac55f1183d728d4b502ac04d2683fc8770167f0951bacbda1f060fffad8b42e"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/22/",
+      "status": 200,
+      "path": "element-summary/22.json.gz",
+      "bytes": 14019,
+      "sha256": "0b4943f44d9523085f0417510344fdb9d2f5474e284401159cbf1a9705156231"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/220/",
+      "status": 200,
+      "path": "element-summary/220.json.gz",
+      "bytes": 12264,
+      "sha256": "cf68b019b8cdc83548d386e96e68b3deadfeaad2cf140a7b1b19b6e516f53ae1"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/221/",
+      "status": 200,
+      "path": "element-summary/221.json.gz",
+      "bytes": 12278,
+      "sha256": "febe9d6f97417e83db237cdeb855f994b3ce36584d61be37ebcb04c1f230473d"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/222/",
+      "status": 200,
+      "path": "element-summary/222.json.gz",
+      "bytes": 12917,
+      "sha256": "657a01fedc1b97bf0126b29a923cc81879fbf95509f33bc979c677f8fec8cba6"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/223/",
+      "status": 200,
+      "path": "element-summary/223.json.gz",
+      "bytes": 15292,
+      "sha256": "bc882ca2a2ce2cff7e2773014dd724362aa90ad7a356e8c0596cac983e6869dd"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/224/",
+      "status": 200,
+      "path": "element-summary/224.json.gz",
+      "bytes": 17015,
+      "sha256": "a0124ed26f0473c01992fd19dbde331c3c554798d0d57937d9624c8b669bb6ea"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/225/",
+      "status": 200,
+      "path": "element-summary/225.json.gz",
+      "bytes": 12250,
+      "sha256": "ad9d1816f8117e0d34f6d21cfddfc09f9469e3879e5a942dcfc004674cdae5e4"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/226/",
+      "status": 200,
+      "path": "element-summary/226.json.gz",
+      "bytes": 19393,
+      "sha256": "2523c17b18914acb923c8b90b731be0b9655a60cf15fb794e777de7af275696a"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/227/",
+      "status": 200,
+      "path": "element-summary/227.json.gz",
+      "bytes": 15188,
+      "sha256": "6960cf7428012fe3042ee9b560cb3f6472c475d4dc9d01f2363391d7e726fefe"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/228/",
+      "status": 200,
+      "path": "element-summary/228.json.gz",
+      "bytes": 13428,
+      "sha256": "0e016a0f0b7497efce80f4a54605e2c0ba8e8a9377e62380d877d91f6c039e79"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/229/",
+      "status": 200,
+      "path": "element-summary/229.json.gz",
+      "bytes": 17676,
+      "sha256": "ad9d98f327886a3d1279e2ee8c123119e6f20209fd5c31f28136a86dd13bbb59"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/23/",
+      "status": 200,
+      "path": "element-summary/23.json.gz",
+      "bytes": 14013,
+      "sha256": "3cc4d17c4f98ec471e3e631136ccf69cb80e5003c48b92c86f15d4452d009900"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/230/",
+      "status": 200,
+      "path": "element-summary/230.json.gz",
+      "bytes": 15833,
+      "sha256": "89b212b04e0d0142dd0d4798e7c68a36dd43ce701ee7f9db5942c279bed8d2ad"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/231/",
+      "status": 200,
+      "path": "element-summary/231.json.gz",
+      "bytes": 19376,
+      "sha256": "c278fa8b58469dda4e1c8710fb878a63efd1b742baa557b4341e46a83251f86b"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/232/",
+      "status": 200,
+      "path": "element-summary/232.json.gz",
+      "bytes": 13484,
+      "sha256": "8dfe194e8dc23984411f7ed06c1a23de1483eaa519a9d7b693d22de5a1f57e84"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/233/",
+      "status": 200,
+      "path": "element-summary/233.json.gz",
+      "bytes": 14708,
+      "sha256": "9a04d884ccb256046a7e2015a7a29a36ee1d7df15232e0a831c79e99b56100c1"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/234/",
+      "status": 200,
+      "path": "element-summary/234.json.gz",
+      "bytes": 14627,
+      "sha256": "e074945190a33f05f2ff4830d9d3a6a7c78079e17e21941562fac68f1557ccd8"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/235/",
+      "status": 200,
+      "path": "element-summary/235.json.gz",
+      "bytes": 12284,
+      "sha256": "b0bdebf91458b0f27349aca77c59176f84ba195ee95eb88a8799e16f9e891694"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/236/",
+      "status": 200,
+      "path": "element-summary/236.json.gz",
+      "bytes": 14119,
+      "sha256": "11b26dad3f9d5e2aaccdcde4f490a4b9ca03ec30abb39f07d8cba5f5f43da9fd"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/237/",
+      "status": 200,
+      "path": "element-summary/237.json.gz",
+      "bytes": 14137,
+      "sha256": "f6a7a0f017a3e3b81a88f8348d3f3c7f9385227409301938872a3602c86af762"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/238/",
+      "status": 200,
+      "path": "element-summary/238.json.gz",
+      "bytes": 18767,
+      "sha256": "680f84c105aceb1b658a480a705fce1b4a46af876f27bbed60df5c161199d5bc"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/239/",
+      "status": 200,
+      "path": "element-summary/239.json.gz",
+      "bytes": 15831,
+      "sha256": "519875394ef0f78adb030044ab615e715460433e701343e2ac01a7063eb88d68"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/24/",
+      "status": 200,
+      "path": "element-summary/24.json.gz",
+      "bytes": 16937,
+      "sha256": "0f9d73d7eba9bb38ad9dccedb5ef51f9148f04530e9bf0a1fafbae949104d563"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/240/",
+      "status": 200,
+      "path": "element-summary/240.json.gz",
+      "bytes": 15226,
+      "sha256": "da62d4425662df697285820772dbf2b50118d48ec13f882bd9b18ddbfe2b5878"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/241/",
+      "status": 200,
+      "path": "element-summary/241.json.gz",
+      "bytes": 17039,
+      "sha256": "76586146f164687ec3e476664eca5e22f6f0d6ecd24926ade8517d0f721e4ad1"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/242/",
+      "status": 200,
+      "path": "element-summary/242.json.gz",
+      "bytes": 13479,
+      "sha256": "d9f8c959b6dfbe816c2741cbdf90d6cccbcc344d1e00a2e5403d3343ad5fd868"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/243/",
+      "status": 200,
+      "path": "element-summary/243.json.gz",
+      "bytes": 13480,
+      "sha256": "e1e02a11953015c3ef789052c7e05322509e2e50778a39376a43fae0ba9749f2"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/244/",
+      "status": 200,
+      "path": "element-summary/244.json.gz",
+      "bytes": 12895,
+      "sha256": "1922a0a89165db5736fb0bcb554f2ba7d3802ae733785d3608672f1ff557172d"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/245/",
+      "status": 200,
+      "path": "element-summary/245.json.gz",
+      "bytes": 13457,
+      "sha256": "c3bd71596df09f191291b91ae6778a296e44242aea10037239fc8d98b32ba7a8"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/246/",
+      "status": 200,
+      "path": "element-summary/246.json.gz",
+      "bytes": 12302,
+      "sha256": "b9d7f0a15a6a15ed9b747f2134cf6b30f87b152605824204c59dde04f2258eef"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/247/",
+      "status": 200,
+      "path": "element-summary/247.json.gz",
+      "bytes": 11722,
+      "sha256": "78b82710281798c3c56975a6dfff532fef3b95dcbfc77cfae306fc0ad079bcf1"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/248/",
+      "status": 200,
+      "path": "element-summary/248.json.gz",
+      "bytes": 13505,
+      "sha256": "36adedbd1efccf559da3f8a462605b2f641df6659c661a816d69bfd420d829ae"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/249/",
+      "status": 200,
+      "path": "element-summary/249.json.gz",
+      "bytes": 12341,
+      "sha256": "89c876e0a3dfde75d4a829947d512d94b13d0548ac9d0bbc61fab302a48fdd66"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/25/",
+      "status": 200,
+      "path": "element-summary/25.json.gz",
+      "bytes": 12902,
+      "sha256": "3146e276765540ee69282c1eeba6362fa01712327e08a6fa207f5dce53af03c8"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/250/",
+      "status": 200,
+      "path": "element-summary/250.json.gz",
+      "bytes": 16484,
+      "sha256": "1379460f7aba4a72c654ffb66e68eb52ba88b6f53077fb63d311babd9251e383"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/251/",
+      "status": 200,
+      "path": "element-summary/251.json.gz",
+      "bytes": 12322,
+      "sha256": "07942564e38f777eeb4acd7e14f76688a16531778c78316b0d060c65e906ac43"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/252/",
+      "status": 200,
+      "path": "element-summary/252.json.gz",
+      "bytes": 12314,
+      "sha256": "fe76bb21a231330569618ca821830c15433c88aa470823da731ceb075d3e6bdd"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/253/",
+      "status": 200,
+      "path": "element-summary/253.json.gz",
+      "bytes": 15314,
+      "sha256": "95fae3229405e44f933af856720a7d561b8a891ab8eb4944da5c45c531f9f1a1"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/254/",
+      "status": 200,
+      "path": "element-summary/254.json.gz",
+      "bytes": 14736,
+      "sha256": "6002dd053179999f51d7b557d041fffc57286de7d506145403e81eb9847883de"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/255/",
+      "status": 200,
+      "path": "element-summary/255.json.gz",
+      "bytes": 12912,
+      "sha256": "54500dd89e5d647bb08a8d0cbde3897710b9c59753507893b8a68564e3659d83"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/256/",
+      "status": 200,
+      "path": "element-summary/256.json.gz",
+      "bytes": 14708,
+      "sha256": "9ba745183e51b6b626726a67a49dde34694bd9d2d9ab55850a72449ddea10126"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/257/",
+      "status": 200,
+      "path": "element-summary/257.json.gz",
+      "bytes": 13537,
+      "sha256": "bca97d3ed2eb0020ad100d6e22bd9ec01d45df6209ac1f8b2943c07756c45f0d"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/258/",
+      "status": 200,
+      "path": "element-summary/258.json.gz",
+      "bytes": 15328,
+      "sha256": "118523b8c106ffe855b8c53519c061622bd03adbc4fabb549b2e4df63ba7008d"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/259/",
+      "status": 200,
+      "path": "element-summary/259.json.gz",
+      "bytes": 16492,
+      "sha256": "f53a49b3d71a347c1eeb2cffc98a9babd3dd32d977f50cc9587133144b58843d"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/26/",
+      "status": 200,
+      "path": "element-summary/26.json.gz",
+      "bytes": 15312,
+      "sha256": "ee67f2393f7feddce53c68490be600764563f5a67466e6df715567a43721bc72"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/260/",
+      "status": 200,
+      "path": "element-summary/260.json.gz",
+      "bytes": 15891,
+      "sha256": "f2f3ce6323b1c4aef3bd31d9799a526efa241f78351fccb0422a2da6c4faba44"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/261/",
+      "status": 200,
+      "path": "element-summary/261.json.gz",
+      "bytes": 18278,
+      "sha256": "4745553d0d9974f22e6929b046f6a3e86eab777f13d335571602e27c943bfb16"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/262/",
+      "status": 200,
+      "path": "element-summary/262.json.gz",
+      "bytes": 16450,
+      "sha256": "76f260306e7d2a0d9769fad6ac2b22495d31417c8f876748e64514f2ca9a2207"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/263/",
+      "status": 200,
+      "path": "element-summary/263.json.gz",
+      "bytes": 12332,
+      "sha256": "d391f6c6b8ed8fc11cb0e166c4a84e731ea85efbd55083ebfc6a39fa4d5cf3bd"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/264/",
+      "status": 200,
+      "path": "element-summary/264.json.gz",
+      "bytes": 13523,
+      "sha256": "ae0cad5e6865314a0d08ea85b0eecb8c6d3d4fae225d00e6f50ff0b96411382a"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/265/",
+      "status": 200,
+      "path": "element-summary/265.json.gz",
+      "bytes": 14718,
+      "sha256": "7844b7fef3c68b97ea276d1c4e3fcbd9b147c1e2ad2a10a6f38ffc082725b003"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/266/",
+      "status": 200,
+      "path": "element-summary/266.json.gz",
+      "bytes": 15837,
+      "sha256": "c299cc189ca9d2c6d570d91b82d9628cc256e7295de8ac783c0153ddde7f5273"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/267/",
+      "status": 200,
+      "path": "element-summary/267.json.gz",
+      "bytes": 14125,
+      "sha256": "23e1d966b458731be5ebbdfb413660a177e11f3ac7d3c0488692bce47322dd26"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/268/",
+      "status": 200,
+      "path": "element-summary/268.json.gz",
+      "bytes": 13529,
+      "sha256": "f334dce89416d041bfacb463c14e7a600c508e9ddb667620186e42d670b0d43e"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/269/",
+      "status": 200,
+      "path": "element-summary/269.json.gz",
+      "bytes": 16442,
+      "sha256": "b3144eb4e50fca63e854778b803bab1a259fdc50087ee812030f3e7aa62bac50"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/27/",
+      "status": 200,
+      "path": "element-summary/27.json.gz",
+      "bytes": 17641,
+      "sha256": "89d03a4d938fde3b0dd5ab54993129cc64d1c04ffaf4e26971303ec1c48c9266"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/270/",
+      "status": 200,
+      "path": "element-summary/270.json.gz",
+      "bytes": 17008,
+      "sha256": "908287fe0f226a3c4d0a0dfb31c00620d8fc799a8a29943a0d58183c38269fcf"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/271/",
+      "status": 200,
+      "path": "element-summary/271.json.gz",
+      "bytes": 14104,
+      "sha256": "46ed86991aba4de7e86f0ea9b3309da12a18ea19346bd754894274e06a14f630"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/272/",
+      "status": 200,
+      "path": "element-summary/272.json.gz",
+      "bytes": 12338,
+      "sha256": "a40f7ae0690fd44210667fce7c88b668eacd2701705965c51965c2f962d82211"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/273/",
+      "status": 200,
+      "path": "element-summary/273.json.gz",
+      "bytes": 11751,
+      "sha256": "e450ea5d35498519133898ff9ed5dc719c631a7ead5dd3da6d2f66adfde0bb85"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/274/",
+      "status": 200,
+      "path": "element-summary/274.json.gz",
+      "bytes": 16404,
+      "sha256": "e42fa892580983a3d8cf4ed0f432c912fa612b94ea5bbdc3ad6130cbe8a65241"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/275/",
+      "status": 200,
+      "path": "element-summary/275.json.gz",
+      "bytes": 11720,
+      "sha256": "55a5478a1fc50f03915eb0203b1f4c569cce65ca007f898391b5e28b2858a3aa"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/276/",
+      "status": 200,
+      "path": "element-summary/276.json.gz",
+      "bytes": 11727,
+      "sha256": "b4dd735c5d3df74b9de4ea8e7993aae0b4b89b1f0b45d53afdc866f43ef2fead"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/277/",
+      "status": 200,
+      "path": "element-summary/277.json.gz",
+      "bytes": 14118,
+      "sha256": "671e8fcfc8f371d1ca2ac118b4c130d1ca8f8c9f76e0638157c89f43c8803a5f"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/278/",
+      "status": 200,
+      "path": "element-summary/278.json.gz",
+      "bytes": 11740,
+      "sha256": "1881fa1e5fd9cc88d0712bb3e06f3138c4946c081c57bf077096f54d7a54d69b"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/279/",
+      "status": 200,
+      "path": "element-summary/279.json.gz",
+      "bytes": 12938,
+      "sha256": "29bf899502e5825d5ec7a538723f049eae57e77735d819dbb907c87afc6b0a29"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/28/",
+      "status": 200,
+      "path": "element-summary/28.json.gz",
+      "bytes": 18748,
+      "sha256": "5b862e5dde0c0c1655a08ac24ee7e8760bad5809673a9cdeb52880159df49a2a"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/280/",
+      "status": 200,
+      "path": "element-summary/280.json.gz",
+      "bytes": 11754,
+      "sha256": "86ecd75ceb1ab45e6a21d9cc085cb3a6b3882d98060a723bc2dd4f66483a7922"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/281/",
+      "status": 200,
+      "path": "element-summary/281.json.gz",
+      "bytes": 13472,
+      "sha256": "af41ab6830609338c9fb3cb46dabd1a5d18878af6731f4c91f06f63f986002f4"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/282/",
+      "status": 200,
+      "path": "element-summary/282.json.gz",
+      "bytes": 14080,
+      "sha256": "fde4b2014e69d52c04a16a4609478f3f8cd545dab702f848ebcc640a9dd4a94f"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/283/",
+      "status": 200,
+      "path": "element-summary/283.json.gz",
+      "bytes": 11728,
+      "sha256": "dec1dd1d6c9e0ed6affe24a2b1d74149acfab40555e39f461c095a335169e4b3"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/284/",
+      "status": 200,
+      "path": "element-summary/284.json.gz",
+      "bytes": 11734,
+      "sha256": "850d1063ce578885c33e40c40a3c01a65c562f30bc8947d9c5f8363dd37693c9"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/285/",
+      "status": 200,
+      "path": "element-summary/285.json.gz",
+      "bytes": 13484,
+      "sha256": "f0ed360cccac070d4cb87c0526b6e70bbeb0c91cb543ba80bc77fd9dff4eeea2"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/286/",
+      "status": 200,
+      "path": "element-summary/286.json.gz",
+      "bytes": 11773,
+      "sha256": "248c9e2b5a97e09e1e703e892b2caf044e8fdda7a752506bb01f6bda7e6db6e9"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/287/",
+      "status": 200,
+      "path": "element-summary/287.json.gz",
+      "bytes": 11739,
+      "sha256": "1acf2154ed7b428d29df73b66d455fb92fc6259b735890663b2e2e31e73da234"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/288/",
+      "status": 200,
+      "path": "element-summary/288.json.gz",
+      "bytes": 13485,
+      "sha256": "54636283546507c11bbba23afd892d9ae831e450de2bc26490eb8c9ad5ad350c"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/289/",
+      "status": 200,
+      "path": "element-summary/289.json.gz",
+      "bytes": 11753,
+      "sha256": "dcec7680e0b52174f7e25bad9844c62ddc24a9be5f8562b7a2ef73b167d2edf7"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/29/",
+      "status": 200,
+      "path": "element-summary/29.json.gz",
+      "bytes": 12291,
+      "sha256": "4bad528ace6d72e546ed9766c2f68390dd7cc7d74b004df4e0683294cd8c9386"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/290/",
+      "status": 200,
+      "path": "element-summary/290.json.gz",
+      "bytes": 11773,
+      "sha256": "2aa9d331471b1e19af503339475310e4b60f52703f857d3ac50ca7d8b750858e"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/291/",
+      "status": 200,
+      "path": "element-summary/291.json.gz",
+      "bytes": 11722,
+      "sha256": "f6b552b5481821af4ca542a4bcf23092149e08f59bd5f77ca8eba7b2ed80dd12"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/292/",
+      "status": 200,
+      "path": "element-summary/292.json.gz",
+      "bytes": 11732,
+      "sha256": "22a53aa216064b68f0b50f534ab7b168acf8c88a9c4fca327e90699c4c59ecd2"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/293/",
+      "status": 200,
+      "path": "element-summary/293.json.gz",
+      "bytes": 12294,
+      "sha256": "ce27777cc43cae18c09a287de518d2324298678078815baf02d5850c6b7148b8"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/294/",
+      "status": 200,
+      "path": "element-summary/294.json.gz",
+      "bytes": 11741,
+      "sha256": "f15931eb2f493bef00f08f401705daa97d5e91f128fc75ac27a78f06e8561593"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/295/",
+      "status": 200,
+      "path": "element-summary/295.json.gz",
+      "bytes": 14710,
+      "sha256": "13506dc3bb27d59d7f46d4e4f9ed32db6106b29c27c17afc197209708e441cde"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/296/",
+      "status": 200,
+      "path": "element-summary/296.json.gz",
+      "bytes": 11734,
+      "sha256": "326586316e18282db37d93a4640662420da1e0d872799662bad345673d9a989d"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/297/",
+      "status": 200,
+      "path": "element-summary/297.json.gz",
+      "bytes": 12884,
+      "sha256": "86aa911e8ef1553fe45c44de15d44a158614a55f9b327275c5163fa4a2a9ef75"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/298/",
+      "status": 200,
+      "path": "element-summary/298.json.gz",
+      "bytes": 11737,
+      "sha256": "296361bdd8b65a0ea21e811fd9f2adf71f6a92907b9767a19208b106ee560a89"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/299/",
+      "status": 200,
+      "path": "element-summary/299.json.gz",
+      "bytes": 12304,
+      "sha256": "b3489e3de126edc339284cbe2a9c706d5eb197f117d410cff197b01534220813"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/3/",
+      "status": 200,
+      "path": "element-summary/3.json.gz",
+      "bytes": 14043,
+      "sha256": "b42d4ab97745eb1c18946496ff2f06ec32002b68e0207419184804221d8c2588"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/30/",
+      "status": 200,
+      "path": "element-summary/30.json.gz",
+      "bytes": 16444,
+      "sha256": "81ce3ada8734b81d997cb95df1fac498f8dd4fc053b59923d50e8005fd7e0ed3"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/300/",
+      "status": 200,
+      "path": "element-summary/300.json.gz",
+      "bytes": 12905,
+      "sha256": "cb0c56e38713a3bd2ba0ca746dd154a477f242e83788a73a88209df4d88392b4"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/301/",
+      "status": 200,
+      "path": "element-summary/301.json.gz",
+      "bytes": 14647,
+      "sha256": "1a135fc0c913c796b96b46d9a6546000885c77d31f6c11fdd21c586f4e6ef7cf"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/302/",
+      "status": 200,
+      "path": "element-summary/302.json.gz",
+      "bytes": 14052,
+      "sha256": "371c1c110968e0d1cfd76bb9249acb3c54f3bff70740dde87d5270f2aa912bf6"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/303/",
+      "status": 200,
+      "path": "element-summary/303.json.gz",
+      "bytes": 12318,
+      "sha256": "68f8a251eb9537c850c16987005847009dbd5e3e8c48574358f916777fb64c5c"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/304/",
+      "status": 200,
+      "path": "element-summary/304.json.gz",
+      "bytes": 13546,
+      "sha256": "e5114a8a3c722d30c36bf3b0f06456106a446d415739ccde3f2a6959e2022306"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/305/",
+      "status": 200,
+      "path": "element-summary/305.json.gz",
+      "bytes": 12947,
+      "sha256": "c9e4dbf4ee3f1088bc6042313ed91ff079fbeff13f039c5d54819546f9c86b54"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/306/",
+      "status": 200,
+      "path": "element-summary/306.json.gz",
+      "bytes": 12357,
+      "sha256": "28ac76c7e1a20490ad33c0d560ce09167a7bb61f60ecfb7d8b2ad2a8f53dd6e3"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/307/",
+      "status": 200,
+      "path": "element-summary/307.json.gz",
+      "bytes": 16412,
+      "sha256": "d2ef024407b05ce7ee08a4edba7bcd046b768a9fd333d37db52894bedb68b909"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/308/",
+      "status": 200,
+      "path": "element-summary/308.json.gz",
+      "bytes": 12914,
+      "sha256": "17638ae61847530e18c83f23cb2cedea5c1a1dafb4fe914f0edc218a815cff9e"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/309/",
+      "status": 200,
+      "path": "element-summary/309.json.gz",
+      "bytes": 11750,
+      "sha256": "516836f95a28c7c5882c25112054cb615b5bb4833b89322d7f6f502a8ce792c7"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/31/",
+      "status": 200,
+      "path": "element-summary/31.json.gz",
+      "bytes": 15890,
+      "sha256": "30b0c2e23382dc64537d1b7d938c138ec063a646d71861ca8be61be7a8ba0340"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/310/",
+      "status": 200,
+      "path": "element-summary/310.json.gz",
+      "bytes": 11720,
+      "sha256": "b5580185b235a07e63507a4702e24ded8ba25f5db591269b64ba0342ca2e0cc2"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/311/",
+      "status": 200,
+      "path": "element-summary/311.json.gz",
+      "bytes": 12309,
+      "sha256": "611f012cd86963deffc228b405b6cbc2c542249a76b3d5f8bc07577501d9a21b"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/312/",
+      "status": 200,
+      "path": "element-summary/312.json.gz",
+      "bytes": 12323,
+      "sha256": "ea867d96aa6ec920b002760e123967b93db05d579d75f4b27f497d8ad6648e75"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/313/",
+      "status": 200,
+      "path": "element-summary/313.json.gz",
+      "bytes": 12345,
+      "sha256": "c22508263472f6fe1b69b97aaa4b2273af0222cd6b33811bac66fae8e3b73eaf"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/314/",
+      "status": 200,
+      "path": "element-summary/314.json.gz",
+      "bytes": 12903,
+      "sha256": "f91de4bfbe06c58b16aba62cf8855be526624028b82d480fc9458f5ccd93a1a2"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/315/",
+      "status": 200,
+      "path": "element-summary/315.json.gz",
+      "bytes": 12347,
+      "sha256": "eed77190ff32f643040ad45c74ef6284128cd288b5bc1cbe63376790fb30e838"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/316/",
+      "status": 200,
+      "path": "element-summary/316.json.gz",
+      "bytes": 11770,
+      "sha256": "2117ab28c28aac7b0140e047a9f7512e403641b26a8bf55b6c54d72bd2f43b41"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/317/",
+      "status": 200,
+      "path": "element-summary/317.json.gz",
+      "bytes": 12902,
+      "sha256": "69f5c305fc6e2ed73252603b1c655f816138ba575408bde5e2d890119ef2ea41"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/318/",
+      "status": 200,
+      "path": "element-summary/318.json.gz",
+      "bytes": 14633,
+      "sha256": "a6184ac14cda86e2da9069fae23e808d5559e21a531e987d10461ffd2ea6d9c5"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/319/",
+      "status": 200,
+      "path": "element-summary/319.json.gz",
+      "bytes": 12312,
+      "sha256": "c38c4990f874b3913ce874aae287d22d3cbf3da77926c377d7477010a779fbca"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/32/",
+      "status": 200,
+      "path": "element-summary/32.json.gz",
+      "bytes": 15295,
+      "sha256": "472d62bf472251ee06d2fef52e0c0148b999cf7ff87869079cfd0b79106d1196"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/320/",
+      "status": 200,
+      "path": "element-summary/320.json.gz",
+      "bytes": 14062,
+      "sha256": "1ad8b185ba61cffcb0b8ea8c9b7feeaafb369ae0675ec1431285361902990d9d"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/321/",
+      "status": 200,
+      "path": "element-summary/321.json.gz",
+      "bytes": 11758,
+      "sha256": "25b9c387d3982e66f4e2822c4f5161486e7156dddfad73aded308495c5a8c57f"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/322/",
+      "status": 200,
+      "path": "element-summary/322.json.gz",
+      "bytes": 12317,
+      "sha256": "9d37f4531037ffcdbacb3e9356adfd0a9178f4374791ecb485214ad1f70978ba"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/323/",
+      "status": 200,
+      "path": "element-summary/323.json.gz",
+      "bytes": 13498,
+      "sha256": "309df1abc3499f495850e32089a444375e12620708ff4c5bb6c848055a9e5fb3"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/324/",
+      "status": 200,
+      "path": "element-summary/324.json.gz",
+      "bytes": 11731,
+      "sha256": "2959798aae0afb8b837b95552a083a00d304740eb4e0b40af04b21d9dbbbd6f9"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/325/",
+      "status": 200,
+      "path": "element-summary/325.json.gz",
+      "bytes": 16959,
+      "sha256": "802d0f69968ec5cbd8087c0bc46cc04b3c204ed0bfc7850010fc84e56da17d95"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/326/",
+      "status": 200,
+      "path": "element-summary/326.json.gz",
+      "bytes": 12908,
+      "sha256": "f3c2f9e53e4a449661721b10f9c3a7735511ff6657bde05fbdc159a3849385bf"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/327/",
+      "status": 200,
+      "path": "element-summary/327.json.gz",
+      "bytes": 12356,
+      "sha256": "805d264c9bfe23613a60f43c9b973fcce1cea7980f3a21d0b754972c7cf08cec"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/328/",
+      "status": 200,
+      "path": "element-summary/328.json.gz",
+      "bytes": 14088,
+      "sha256": "4c6662774be0f97d0a7ae8fea99d506ebca6de00ee1ba3447fe3df4d55245cab"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/329/",
+      "status": 200,
+      "path": "element-summary/329.json.gz",
+      "bytes": 15254,
+      "sha256": "4472616a1341331064e769575ea64c8078a9dcca08c061ba18dd7e1271ecbdb3"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/33/",
+      "status": 200,
+      "path": "element-summary/33.json.gz",
+      "bytes": 18174,
+      "sha256": "8f01883c36a503f1d21b8b9ca5f5f5e41a1ba07825d674cc8f78918c12373fcf"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/330/",
+      "status": 200,
+      "path": "element-summary/330.json.gz",
+      "bytes": 13546,
+      "sha256": "d28659d655808016142f062a05ce54a28a57884363473ff3d0f33c5cfd69ce00"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/331/",
+      "status": 200,
+      "path": "element-summary/331.json.gz",
+      "bytes": 12334,
+      "sha256": "6709642fb27997b3bc2d5b7191bf2e7493198487333d30dc05c7d3db2afae93e"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/332/",
+      "status": 200,
+      "path": "element-summary/332.json.gz",
+      "bytes": 15322,
+      "sha256": "a3d761ed0a87783673f3c9ce5548901e57739aea0fa50ea58078cef30afe1de6"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/333/",
+      "status": 200,
+      "path": "element-summary/333.json.gz",
+      "bytes": 12304,
+      "sha256": "c05d3689c8717eb032049ec2b0cd2606cba233b004659d15000c571e0496dbd2"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/334/",
+      "status": 200,
+      "path": "element-summary/334.json.gz",
+      "bytes": 11776,
+      "sha256": "bddb6fda8e9f5a7c3c576e8d00b828f1746dc0e8d3606c42feab13bb80d31e31"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/335/",
+      "status": 200,
+      "path": "element-summary/335.json.gz",
+      "bytes": 12377,
+      "sha256": "b06c1245590ba79920564a23be4719c21cd2f0b72c23dfe73e3de1de807112ad"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/336/",
+      "status": 200,
+      "path": "element-summary/336.json.gz",
+      "bytes": 12359,
+      "sha256": "8101061c59527a4ecc9a15ebf506757871f4784910c03b5b7004e329cc2bba8f"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/337/",
+      "status": 200,
+      "path": "element-summary/337.json.gz",
+      "bytes": 12947,
+      "sha256": "5ad79132d01702f400f7c2a1fa7d119cd84d5ebc536fc9035b715cb51e36ba51"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/338/",
+      "status": 200,
+      "path": "element-summary/338.json.gz",
+      "bytes": 16419,
+      "sha256": "86949c3de7849655ea2a6b2fdd585f162862649fd5e797df73858c62f0dd9848"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/339/",
+      "status": 200,
+      "path": "element-summary/339.json.gz",
+      "bytes": 16473,
+      "sha256": "03fc19d9fd33a25975e875846080a3fdca9111cf3e2e4f376e8d2370e139deff"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/34/",
+      "status": 200,
+      "path": "element-summary/34.json.gz",
+      "bytes": 13493,
+      "sha256": "5ecb90b052376f4d8a7bf2f48cbfa754f25cf97e4937bf2c786e23defa50a83e"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/340/",
+      "status": 200,
+      "path": "element-summary/340.json.gz",
+      "bytes": 14054,
+      "sha256": "6863dc3a94fd6cecead76f59126fda745e8dcad0950cf41bd62ef6d0da131756"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/341/",
+      "status": 200,
+      "path": "element-summary/341.json.gz",
+      "bytes": 12912,
+      "sha256": "7c05c5d83cc853ee30a08569449ef5b3cd50a3e442cdcef4c3833de88173e0f2"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/342/",
+      "status": 200,
+      "path": "element-summary/342.json.gz",
+      "bytes": 15272,
+      "sha256": "d57ffa7fb97dd9919a3c5a824f1472ad4307ca8e8b86b6b1a2ddc3574dd7538a"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/343/",
+      "status": 200,
+      "path": "element-summary/343.json.gz",
+      "bytes": 15269,
+      "sha256": "61efa2a24a67f3ff01ed2a09ecd8e44afc7874eab0ae5dee1a7de3be6b537daa"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/344/",
+      "status": 200,
+      "path": "element-summary/344.json.gz",
+      "bytes": 12316,
+      "sha256": "f1fc7bccda2bb222d54e1354e84c2cedf21a73d1d9fb56060b9bbad98adae84a"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/345/",
+      "status": 200,
+      "path": "element-summary/345.json.gz",
+      "bytes": 12350,
+      "sha256": "a03389c071c1c1da85382e95b319a04ae2c9e922a2ef2a4f61829fab369dec2e"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/346/",
+      "status": 200,
+      "path": "element-summary/346.json.gz",
+      "bytes": 17720,
+      "sha256": "3a8eb5977c2677ca811bafe2fcd834109b505386983106d77bcd15a1895b3912"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/347/",
+      "status": 200,
+      "path": "element-summary/347.json.gz",
+      "bytes": 12924,
+      "sha256": "f8c631035b78b94220ad299409321ec4193b245cc6cdb3d480da61cf1a20ab36"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/348/",
+      "status": 200,
+      "path": "element-summary/348.json.gz",
+      "bytes": 12321,
+      "sha256": "54a4e9b2efe622020a8339187fa17f0562ea0b887594bf56f005ab5c68bdd503"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/349/",
+      "status": 200,
+      "path": "element-summary/349.json.gz",
+      "bytes": 12889,
+      "sha256": "0e6c5944f58be4c00e9408cd9826abe937ace89b84b61cebb3e9715dde81b6fe"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/35/",
+      "status": 200,
+      "path": "element-summary/35.json.gz",
+      "bytes": 14030,
+      "sha256": "95239500e3e49a4948d28a9ffe205039f83f32c1b8ce1c2f844682c75a1a3473"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/350/",
+      "status": 200,
+      "path": "element-summary/350.json.gz",
+      "bytes": 16498,
+      "sha256": "c256123b417ff063eea2cf053d0ae6e554878e177ec36fbc3a1879a7e50bbb72"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/351/",
+      "status": 200,
+      "path": "element-summary/351.json.gz",
+      "bytes": 12333,
+      "sha256": "27138b3f73d0c1ca22d827bb82c27a952cf07f9efc089ed9cf52429e6ddd5371"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/352/",
+      "status": 200,
+      "path": "element-summary/352.json.gz",
+      "bytes": 15789,
+      "sha256": "276fd77d13be9c8c7a997fc5c1df3f6ccfa9946dfb468786cd6045aed0d847b6"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/353/",
+      "status": 200,
+      "path": "element-summary/353.json.gz",
+      "bytes": 12302,
+      "sha256": "dda84358d59976f8ddb436ba6aaf962f2f09953e0f5f1dc14cf8b2fc4253e79a"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/354/",
+      "status": 200,
+      "path": "element-summary/354.json.gz",
+      "bytes": 12306,
+      "sha256": "cfcfe2f4f83cda20c58eb51a60ad25ca4919679feea69fdfc45d44432fa37899"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/355/",
+      "status": 200,
+      "path": "element-summary/355.json.gz",
+      "bytes": 12888,
+      "sha256": "031a11ba9f66806cef458b2956bc40434b39fa59b4abf41fcbef1f6cf57ee7af"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/356/",
+      "status": 200,
+      "path": "element-summary/356.json.gz",
+      "bytes": 18291,
+      "sha256": "cd7066af17be9c9f80a93e030b24c6adcf47871af93eefb02ab590071446f92b"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/357/",
+      "status": 200,
+      "path": "element-summary/357.json.gz",
+      "bytes": 12363,
+      "sha256": "c26647e3bd5cd5be3d5a7b09573f1a10c0d9dbb06424a3f39b53b7982bfca894"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/358/",
+      "status": 200,
+      "path": "element-summary/358.json.gz",
+      "bytes": 13556,
+      "sha256": "b9f36bffaf7caf22e1283d87bcee02220deb56846dcb66728a13c831d04eaa3f"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/359/",
+      "status": 200,
+      "path": "element-summary/359.json.gz",
+      "bytes": 18178,
+      "sha256": "b5021b3cc794b3e2392972ec460e726c944e9b78d6eb0c2eaf156365b6a4d9e4"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/36/",
+      "status": 200,
+      "path": "element-summary/36.json.gz",
+      "bytes": 13496,
+      "sha256": "756d77d35533649f46599868e1d9375f069eba7929b7bee21d8c67ea78e0de5b"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/360/",
+      "status": 200,
+      "path": "element-summary/360.json.gz",
+      "bytes": 14078,
+      "sha256": "4134ac9c459bb1363edfb3718f58cfd55f180cc95105a67db2f2f5f53afe5db1"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/361/",
+      "status": 200,
+      "path": "element-summary/361.json.gz",
+      "bytes": 12314,
+      "sha256": "ac673b423ba3fdd8ef8ae023386966cfa2ad8b8afe27074bae63cbaa186a0681"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/362/",
+      "status": 200,
+      "path": "element-summary/362.json.gz",
+      "bytes": 11770,
+      "sha256": "e33cd210d3507393da29ccd8c6d2f3ae540adcaa4f2882d86f86806a18261c20"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/363/",
+      "status": 200,
+      "path": "element-summary/363.json.gz",
+      "bytes": 12308,
+      "sha256": "d0e8b73c1d40f4d15c6cc4ab1cc7ad97a6ba1122eb648206260c4a74e9903a86"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/364/",
+      "status": 200,
+      "path": "element-summary/364.json.gz",
+      "bytes": 15241,
+      "sha256": "837e493b259fe400ccf9ccaf20ff55b3b2085d57b8109e64ffd2efe604009967"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/365/",
+      "status": 200,
+      "path": "element-summary/365.json.gz",
+      "bytes": 12890,
+      "sha256": "07d0f56d61b11b2102403c445348669eb0bdcc0969cc5d6e8c7d6378dfa2a402"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/366/",
+      "status": 200,
+      "path": "element-summary/366.json.gz",
+      "bytes": 12387,
+      "sha256": "6196a9a67aa6d36f0b1a736995090ed151c6f28d3d6925525c4560472e29131b"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/367/",
+      "status": 200,
+      "path": "element-summary/367.json.gz",
+      "bytes": 14174,
+      "sha256": "d717397dcc4f273034451151b9ac5ea0c40f3f4c80366125252c2b3190107ba0"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/368/",
+      "status": 200,
+      "path": "element-summary/368.json.gz",
+      "bytes": 13585,
+      "sha256": "7724714f5d43c54495a66daac5d75b51dba4383fe43de721dfd4e8f9494c69e7"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/369/",
+      "status": 200,
+      "path": "element-summary/369.json.gz",
+      "bytes": 12347,
+      "sha256": "d6420d7d58504ee55d8ac3947342eb76a641f5303042f878cf8ceee0d26cce79"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/37/",
+      "status": 200,
+      "path": "element-summary/37.json.gz",
+      "bytes": 17025,
+      "sha256": "b7b767ca9dc84f624ccd0691abe354430f2323422bb06aa90cc6bebe77d5fefb"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/370/",
+      "status": 200,
+      "path": "element-summary/370.json.gz",
+      "bytes": 12908,
+      "sha256": "74c3f51630a96b4fc3d06133b3aeb109868c9acabd812df0036e2f810497dd57"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/371/",
+      "status": 200,
+      "path": "element-summary/371.json.gz",
+      "bytes": 13558,
+      "sha256": "565be68b3b0d8f8ab8c8d1b493caca05492debb71a3a29b950536fe7e1c180f1"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/372/",
+      "status": 200,
+      "path": "element-summary/372.json.gz",
+      "bytes": 15925,
+      "sha256": "bc4478545d883e88766c1e3b764831919834dbcb6e0d2731917512da2dc3bafc"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/373/",
+      "status": 200,
+      "path": "element-summary/373.json.gz",
+      "bytes": 17021,
+      "sha256": "43fb6b61270f93a740d12d7669d2d8d6a109a9e5b6da41c63d6ec581b8d673a7"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/374/",
+      "status": 200,
+      "path": "element-summary/374.json.gz",
+      "bytes": 13494,
+      "sha256": "005adbedde734c1469992760b346229f77e008bc88dab5acf1b479d8a7b96645"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/375/",
+      "status": 200,
+      "path": "element-summary/375.json.gz",
+      "bytes": 13464,
+      "sha256": "b5fb7db768834228fc83dff98bbcb6dba14582459fcf62dd2f2cf7b2b1119fe4"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/376/",
+      "status": 200,
+      "path": "element-summary/376.json.gz",
+      "bytes": 14030,
+      "sha256": "fc07b88b8b423250aef01fdd2415043289bb548fb4275e52719f00b8ede7191f"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/377/",
+      "status": 200,
+      "path": "element-summary/377.json.gz",
+      "bytes": 11761,
+      "sha256": "201d5401898913556214a180e43047fbe67304a840ae0748717b083c1d90d19c"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/378/",
+      "status": 200,
+      "path": "element-summary/378.json.gz",
+      "bytes": 13471,
+      "sha256": "cd57999bdcb3879c532f3bba3e57bff145e880b43d3c5d038a825186042ac43f"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/379/",
+      "status": 200,
+      "path": "element-summary/379.json.gz",
+      "bytes": 14173,
+      "sha256": "4bc132d01a3cc521e213aeb232e3e7f41dae309f178269ab6904b25bf374fe2d"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/38/",
+      "status": 200,
+      "path": "element-summary/38.json.gz",
+      "bytes": 12880,
+      "sha256": "ab0a1f6d9eefc55446acb2db33fd4b2fe8a81dc645ccf9c39cceb95b57a55fba"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/380/",
+      "status": 200,
+      "path": "element-summary/380.json.gz",
+      "bytes": 12344,
+      "sha256": "226df79d79ef2e2fcba595c458778899368bd33caea0a73c801d338ddc9d8eac"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/381/",
+      "status": 200,
+      "path": "element-summary/381.json.gz",
+      "bytes": 12308,
+      "sha256": "94c65b09cee80e1d33dd7b379f97653fb1f81d0f464968c89f3bb418f376d2a1"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/382/",
+      "status": 200,
+      "path": "element-summary/382.json.gz",
+      "bytes": 13465,
+      "sha256": "6924e6ca22b232c4956dfc4515fafdf82b331e1415964779859bf4db30669b0d"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/383/",
+      "status": 200,
+      "path": "element-summary/383.json.gz",
+      "bytes": 16408,
+      "sha256": "600d881b028122f843d7389392f5842cc8e71be4cbc8cb2341abdb046db03bc6"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/384/",
+      "status": 200,
+      "path": "element-summary/384.json.gz",
+      "bytes": 12365,
+      "sha256": "475144183018930adc7321189c577ddcee5a4eecded8c5be245da4748eee3e48"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/385/",
+      "status": 200,
+      "path": "element-summary/385.json.gz",
+      "bytes": 13520,
+      "sha256": "b1f1b7d3a1fcdbf344f415523ba1da144f4e2ddb3e19d2e87f30c9986e503698"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/386/",
+      "status": 200,
+      "path": "element-summary/386.json.gz",
+      "bytes": 16352,
+      "sha256": "4082b27b50bb533d7b17d58768e89ee4b4de6cccf62ade8faa3d6f75a1e85ee9"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/387/",
+      "status": 200,
+      "path": "element-summary/387.json.gz",
+      "bytes": 13538,
+      "sha256": "7088176b160aedea7f16a92a808f624f7f56ba7d1b57fbebc24c7576e850e61a"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/388/",
+      "status": 200,
+      "path": "element-summary/388.json.gz",
+      "bytes": 15911,
+      "sha256": "c1da0537093bb819c963d71ec420dbccb1c17101aae9ee4bcd3d5e31d6404d8f"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/389/",
+      "status": 200,
+      "path": "element-summary/389.json.gz",
+      "bytes": 14137,
+      "sha256": "7f8d012b3acef055c280965dd7643ed4a965f0735c6c8c7796be6d0d32ed78be"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/39/",
+      "status": 200,
+      "path": "element-summary/39.json.gz",
+      "bytes": 12281,
+      "sha256": "802938883e4844a9fc1ce1d00669325ecb74da1ae65f119b0bbec9a3542266f2"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/390/",
+      "status": 200,
+      "path": "element-summary/390.json.gz",
+      "bytes": 15333,
+      "sha256": "afc62d06e79dcba0244d31a398b60da23b0b303eab54eb4e5f1ed97f8a866797"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/391/",
+      "status": 200,
+      "path": "element-summary/391.json.gz",
+      "bytes": 13572,
+      "sha256": "31194476a8580768e17173d32e7dc5edb3097c2964006148f6e32580310972b9"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/392/",
+      "status": 200,
+      "path": "element-summary/392.json.gz",
+      "bytes": 15305,
+      "sha256": "327fc31952874524c75a8194e5612eaaad7731f0aa319f02a1ded1c900fa9e66"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/393/",
+      "status": 200,
+      "path": "element-summary/393.json.gz",
+      "bytes": 12943,
+      "sha256": "0c5dfa2c3df40dd638938860602de553edd8611710e861d9f562525d34b3e151"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/394/",
+      "status": 200,
+      "path": "element-summary/394.json.gz",
+      "bytes": 12880,
+      "sha256": "d4285b649c27f80943c2de8c78de318df2a02ae454f821da9650c6bdd2fe1a1c"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/395/",
+      "status": 200,
+      "path": "element-summary/395.json.gz",
+      "bytes": 14104,
+      "sha256": "733408541d84bf575682d2290bf0bdb59919d6ece89dbda88fa2f366b1d64df8"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/396/",
+      "status": 200,
+      "path": "element-summary/396.json.gz",
+      "bytes": 12883,
+      "sha256": "b6ceb83763c88e9cb13512a2ba54e535c9383e41813fbfdbc36987335a5b65c9"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/397/",
+      "status": 200,
+      "path": "element-summary/397.json.gz",
+      "bytes": 14170,
+      "sha256": "15dcbcdfcf3cfe937d715d56cd3e057665ea0523c468b40a2a60ffef8b340787"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/398/",
+      "status": 200,
+      "path": "element-summary/398.json.gz",
+      "bytes": 17120,
+      "sha256": "da0c9d7c10a54cbe850aff99c1df8721ff7bc24b54a9c4927959db991c562feb"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/399/",
+      "status": 200,
+      "path": "element-summary/399.json.gz",
+      "bytes": 12386,
+      "sha256": "eb750d2f20cd85e2d82924b1279323f957b244bdde72405822b8ca57e9f6659c"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/4/",
+      "status": 200,
+      "path": "element-summary/4.json.gz",
+      "bytes": 15316,
+      "sha256": "7ff98123adc7d96905a07138471355cae8fd429142e99b2b444b4592de832083"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/40/",
+      "status": 200,
+      "path": "element-summary/40.json.gz",
+      "bytes": 13550,
+      "sha256": "9c4e00a7631ecca299a083350a52d0d21915adb9e377b52befd841a1862714ea"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/400/",
+      "status": 200,
+      "path": "element-summary/400.json.gz",
+      "bytes": 13540,
+      "sha256": "c3ad811605af3d1d1e2bf561b83aa3bb9e6406b1106046224b05f2ca10c3c294"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/401/",
+      "status": 200,
+      "path": "element-summary/401.json.gz",
+      "bytes": 12947,
+      "sha256": "9b663f984f66daafc3b7cfd7e9b3b43c752d165d4fdbdb950663b70ef4c0738b"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/402/",
+      "status": 200,
+      "path": "element-summary/402.json.gz",
+      "bytes": 15874,
+      "sha256": "d45b5ad877d0199ea15d36947a657999b3e869365ce56966e6d01a40e9f3c50e"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/403/",
+      "status": 200,
+      "path": "element-summary/403.json.gz",
+      "bytes": 12950,
+      "sha256": "50f79ab9082ffd8a39098d937bcd489f2df5f53f29ff269fd02aeb93d5951730"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/404/",
+      "status": 200,
+      "path": "element-summary/404.json.gz",
+      "bytes": 12329,
+      "sha256": "305f956ca487e3a97f3964b8aa6ddf278d33a4f125bcebb1201d3c1122ffa570"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/405/",
+      "status": 200,
+      "path": "element-summary/405.json.gz",
+      "bytes": 12929,
+      "sha256": "a10cd79b74bf0abc76d72461d92033d014f7f0ec35c488abd8d86344313640f1"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/406/",
+      "status": 200,
+      "path": "element-summary/406.json.gz",
+      "bytes": 16459,
+      "sha256": "d927e2a407756d5e662bdde1fdedb6cc17df77f64d7a76397c004b85637450f5"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/407/",
+      "status": 200,
+      "path": "element-summary/407.json.gz",
+      "bytes": 12881,
+      "sha256": "6f8476f3ae2629d75ec7aba7de1e84995abaf24f9c76ce7dec45ecb2ee8f5de2"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/408/",
+      "status": 200,
+      "path": "element-summary/408.json.gz",
+      "bytes": 15239,
+      "sha256": "8a23172651ef9673c0d2d6b87c24eb2724e50cb6c10800a31f06ff123520f8be"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/409/",
+      "status": 200,
+      "path": "element-summary/409.json.gz",
+      "bytes": 12318,
+      "sha256": "c0dfd377392f20dc72303627cb051aaca7ae8c490ffec63ccaa310f694814570"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/41/",
+      "status": 200,
+      "path": "element-summary/41.json.gz",
+      "bytes": 15267,
+      "sha256": "96375f783ed7f19a5825a14b3c50c104e884647b657e2a298a9892f6a6c155a8"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/410/",
+      "status": 200,
+      "path": "element-summary/410.json.gz",
+      "bytes": 12311,
+      "sha256": "7db1f789c0015e480e9b5aa4a98bf09cd304a5a2aaaacccca9bb04faddaa3f8d"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/411/",
+      "status": 200,
+      "path": "element-summary/411.json.gz",
+      "bytes": 14205,
+      "sha256": "06553b4adf4bd0a7e82a8eef23a005b2d5665b5f706466bb64bc29417078c8b2"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/412/",
+      "status": 200,
+      "path": "element-summary/412.json.gz",
+      "bytes": 12370,
+      "sha256": "cf2218a6436692b74c1773f9028e7bdfad98366fe3b2452da2d11ca0a020bc86"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/413/",
+      "status": 200,
+      "path": "element-summary/413.json.gz",
+      "bytes": 13470,
+      "sha256": "e6ba171713f1a7762e43d27dfd4c0799fa0921d06c3a28c78de47b0c8a5be97c"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/414/",
+      "status": 200,
+      "path": "element-summary/414.json.gz",
+      "bytes": 19265,
+      "sha256": "45193c67d2769910a5f67988f5be51d065028c4d0a08fd182225c48b0cdf3501"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/415/",
+      "status": 200,
+      "path": "element-summary/415.json.gz",
+      "bytes": 12956,
+      "sha256": "e94803efb4759eb08fe1e18c3eda2633ffbe400b6e9bdfc6a3356b74ea827ed4"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/416/",
+      "status": 200,
+      "path": "element-summary/416.json.gz",
+      "bytes": 12919,
+      "sha256": "adcde5b4b5742cce29c8e47243a735d457ca501a511d6a5dedaa4bb6747d5cc3"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/417/",
+      "status": 200,
+      "path": "element-summary/417.json.gz",
+      "bytes": 16487,
+      "sha256": "72a7b1b72ce13e468f36e218345992d67cc13a880c12a282a86cc00222faeddc"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/418/",
+      "status": 200,
+      "path": "element-summary/418.json.gz",
+      "bytes": 18268,
+      "sha256": "fdf209fb06d139a4dfd2052d20ac818f8a7df7101db1cecd1855692facf503c3"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/419/",
+      "status": 200,
+      "path": "element-summary/419.json.gz",
+      "bytes": 14128,
+      "sha256": "67718ea682adeffadd90fa3ad1144f885233759764d83b4972688a0be953efdc"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/42/",
+      "status": 200,
+      "path": "element-summary/42.json.gz",
+      "bytes": 12290,
+      "sha256": "1f38ef302e4123e4e2bc45f3c70664324d42c468457e364900af7d1cebb0d770"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/420/",
+      "status": 200,
+      "path": "element-summary/420.json.gz",
+      "bytes": 12935,
+      "sha256": "3dcb6499687e3ffb912b136c0832dd30954b128e6cd86384fda6a12deaa87dc3"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/421/",
+      "status": 200,
+      "path": "element-summary/421.json.gz",
+      "bytes": 12922,
+      "sha256": "ebc8910ab4c7b827874b13b91d7742ddd2e341e00651f664a39f88895b07fb8c"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/422/",
+      "status": 200,
+      "path": "element-summary/422.json.gz",
+      "bytes": 12941,
+      "sha256": "8962f2cf99383458611083ffc6a35a780b067c8db37d1af139dd7fbe68cd4e95"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/423/",
+      "status": 200,
+      "path": "element-summary/423.json.gz",
+      "bytes": 20021,
+      "sha256": "d6ed97fbe039a63bbc08d118bc19cb62351cb7c57d4a3b41074d2e83d4183df0"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/424/",
+      "status": 200,
+      "path": "element-summary/424.json.gz",
+      "bytes": 13476,
+      "sha256": "c0bc9f1d6646a6ff1e43ddb92767bf34cf7ad43046639bbb6460c4d06665b644"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/425/",
+      "status": 200,
+      "path": "element-summary/425.json.gz",
+      "bytes": 12883,
+      "sha256": "8bbbc06f8cec3f08bb03f6f6780a7099f3fed31553a7cd58ddc03c2246a7f940"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/426/",
+      "status": 200,
+      "path": "element-summary/426.json.gz",
+      "bytes": 15996,
+      "sha256": "8bb3be5b10d5f3ed6beac7064e6d6f78fa2f0d0b0bdea815b014349ed14ebbe3"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/427/",
+      "status": 200,
+      "path": "element-summary/427.json.gz",
+      "bytes": 14780,
+      "sha256": "5e468a7f9b32f10e1dd62053280b9b4ef62a99de020e28325e7d3330a205398e"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/428/",
+      "status": 200,
+      "path": "element-summary/428.json.gz",
+      "bytes": 14166,
+      "sha256": "312c51822026d34b09f3e590b3e7da8b6f0e862a2c89f589fe1687bb8b86f05f"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/429/",
+      "status": 200,
+      "path": "element-summary/429.json.gz",
+      "bytes": 18277,
+      "sha256": "823d1d65da155644e6fa98536e06059bcdfae42725abe661ce8a43cfaed7e9b9"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/43/",
+      "status": 200,
+      "path": "element-summary/43.json.gz",
+      "bytes": 16521,
+      "sha256": "1e8959a84189daf6b57520a75e9ab08cf36e3e69146e24933ebc0dc8e7a2f4d6"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/430/",
+      "status": 200,
+      "path": "element-summary/430.json.gz",
+      "bytes": 15878,
+      "sha256": "95e3c01e3f94a0b7ca7635155a1203df956774dd752eb48114e1a62bbb981d11"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/431/",
+      "status": 200,
+      "path": "element-summary/431.json.gz",
+      "bytes": 15267,
+      "sha256": "f3e417d9ec81d09d0e9c680871af81542a30190cf77d72fc347c7b3d937d40cc"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/432/",
+      "status": 200,
+      "path": "element-summary/432.json.gz",
+      "bytes": 14128,
+      "sha256": "ab945873e76bdec9a5237f9065684220b281df056f84d7bc806b6981ed470bf0"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/433/",
+      "status": 200,
+      "path": "element-summary/433.json.gz",
+      "bytes": 12907,
+      "sha256": "4b6373e6d4378d5119308bb98cb07971f0d8369a5797c641dae1628b374b6d77"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/434/",
+      "status": 200,
+      "path": "element-summary/434.json.gz",
+      "bytes": 12887,
+      "sha256": "99e03f2caf5934a3f188bab1e3970fe77fd006c8ad87bbb39226d67fcda124c7"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/435/",
+      "status": 200,
+      "path": "element-summary/435.json.gz",
+      "bytes": 12312,
+      "sha256": "9d49ace1f478119d797aa9bb3c3fb7c27284f6a844c526568ecdb769eb5e07c5"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/436/",
+      "status": 200,
+      "path": "element-summary/436.json.gz",
+      "bytes": 13462,
+      "sha256": "898990c99ead2a72d544b0ff98f549637a42e7e5c2c9f4d5c2ce91fd903f4e61"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/437/",
+      "status": 200,
+      "path": "element-summary/437.json.gz",
+      "bytes": 12320,
+      "sha256": "d9212014a74e9cb25ef58b622992d0c6e213697c8c93359f1d9ca4b70f8e6d04"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/438/",
+      "status": 200,
+      "path": "element-summary/438.json.gz",
+      "bytes": 12322,
+      "sha256": "4ad3d8952208a18799ba23d68abec5337c4550919176c2c90065e1327ba56f76"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/439/",
+      "status": 200,
+      "path": "element-summary/439.json.gz",
+      "bytes": 12362,
+      "sha256": "0767c628f0154db01f093147d1422b3fe108c42c4b8f202ff2084b5bf4495e1f"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/44/",
+      "status": 200,
+      "path": "element-summary/44.json.gz",
+      "bytes": 14667,
+      "sha256": "12700e0565336884b7b6068cfd307909b1f7e7e57e92e3488c7bef1bdd68db8f"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/440/",
+      "status": 200,
+      "path": "element-summary/440.json.gz",
+      "bytes": 12932,
+      "sha256": "0536d556b6eccbda04bf03a7cfe0025a2da54fe8451be165aeaa187bd818bb1e"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/441/",
+      "status": 200,
+      "path": "element-summary/441.json.gz",
+      "bytes": 12908,
+      "sha256": "d5b19897a300c2bfb8b827fbf8e87431949eb647a886db89d86b662bee894357"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/442/",
+      "status": 200,
+      "path": "element-summary/442.json.gz",
+      "bytes": 17628,
+      "sha256": "0f39c6756413da57f9b444d43db7a44b5ba2b65f320c36e840243f9a94345855"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/443/",
+      "status": 200,
+      "path": "element-summary/443.json.gz",
+      "bytes": 14606,
+      "sha256": "09c3aeef1250b7d26456a5800d22745af8f24a4f4cd523b5a8f8b6f71edb4855"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/444/",
+      "status": 200,
+      "path": "element-summary/444.json.gz",
+      "bytes": 11732,
+      "sha256": "676d6ee13ca659241fa802fcaabfc031911598a77008e10090ab258f7342dbd2"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/445/",
+      "status": 200,
+      "path": "element-summary/445.json.gz",
+      "bytes": 12369,
+      "sha256": "66ef34a973caff2c32eb979354d0685344d29af6322c310c4eee8e19c324e55b"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/446/",
+      "status": 200,
+      "path": "element-summary/446.json.gz",
+      "bytes": 16487,
+      "sha256": "d141983126de04d31f4687a87ef7b413f8cf0bac1b952721c1f8428ced351680"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/447/",
+      "status": 200,
+      "path": "element-summary/447.json.gz",
+      "bytes": 14125,
+      "sha256": "9f828f3d46e75b3d84ad96ea572f3a2ecab96cad31cfde4fd2a6568e888e22d4"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/448/",
+      "status": 200,
+      "path": "element-summary/448.json.gz",
+      "bytes": 17053,
+      "sha256": "472b03cc60372612977dcc65b9a35f4fda01cbf2dfeeb206eadb049325c03a2f"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/449/",
+      "status": 200,
+      "path": "element-summary/449.json.gz",
+      "bytes": 14731,
+      "sha256": "9487de4d66b8f5a9925ca864b2d29b8d3285f0293b4d5e21ba5035fc5ed98073"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/45/",
+      "status": 200,
+      "path": "element-summary/45.json.gz",
+      "bytes": 15892,
+      "sha256": "47d44143a93b14ff9fe625cb4abea11d0495c52b28a03be75f249397170aa1b1"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/450/",
+      "status": 200,
+      "path": "element-summary/450.json.gz",
+      "bytes": 15264,
+      "sha256": "fa70c2d47cd7aa19752e1d65e8ea9563250aae0f0928766748fb55a411f36fde"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/451/",
+      "status": 200,
+      "path": "element-summary/451.json.gz",
+      "bytes": 13461,
+      "sha256": "3317752ba2e2432612d85049a09a0c777685e33549e339ddb3184e3b9591880e"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/452/",
+      "status": 200,
+      "path": "element-summary/452.json.gz",
+      "bytes": 14712,
+      "sha256": "06ff937c0fe8ded7c1beb383c4d33bbb9e21c540522e79b7966ca7448e2edc56"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/453/",
+      "status": 200,
+      "path": "element-summary/453.json.gz",
+      "bytes": 17097,
+      "sha256": "df3c9617f6e61268d0abadba8638a23d2015706178708433d30700021c081c02"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/454/",
+      "status": 200,
+      "path": "element-summary/454.json.gz",
+      "bytes": 15320,
+      "sha256": "539ae48582933f193823cf1421771b04c10a1ef9b0f8236188c5182c9aeda4d2"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/455/",
+      "status": 200,
+      "path": "element-summary/455.json.gz",
+      "bytes": 13554,
+      "sha256": "94674bff58e0a0d7be89b507b9fc170fd64b746ab92be6ef4de661d32aa0b871"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/456/",
+      "status": 200,
+      "path": "element-summary/456.json.gz",
+      "bytes": 15306,
+      "sha256": "db7de8fd404fe577b35f0739e3d08687309d981f4372e7aef4a91043746b98c4"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/457/",
+      "status": 200,
+      "path": "element-summary/457.json.gz",
+      "bytes": 17060,
+      "sha256": "01c16bc862a38912a6e79968d55b52f42521a758b26f849158447df4425e790e"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/458/",
+      "status": 200,
+      "path": "element-summary/458.json.gz",
+      "bytes": 15890,
+      "sha256": "c2ba3624c5fa0b6aab925b0f43eca24254dcf7dc819c591b5dcabd44f38f3d35"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/459/",
+      "status": 200,
+      "path": "element-summary/459.json.gz",
+      "bytes": 14099,
+      "sha256": "47f9a1c315d188951970290a24784b69be3e2420deed5be490601ebf88294e60"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/46/",
+      "status": 200,
+      "path": "element-summary/46.json.gz",
+      "bytes": 21080,
+      "sha256": "2eeaa45ebc700316d796594a68ae9feddf788e517ca0a2a846fd61b375ff2c7f"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/460/",
+      "status": 200,
+      "path": "element-summary/460.json.gz",
+      "bytes": 17050,
+      "sha256": "53d49fd88e2fff6dc0cdb4538ae9a00b82c7f95db9fd7e71465d5a8fdadc0d28"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/461/",
+      "status": 200,
+      "path": "element-summary/461.json.gz",
+      "bytes": 11747,
+      "sha256": "85c71295caecef5aad5396fe4c9a74c69e19461761228071dbdb60ae446e7563"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/462/",
+      "status": 200,
+      "path": "element-summary/462.json.gz",
+      "bytes": 11746,
+      "sha256": "69b4c8966721025aa7b652436363434c2ea09596df984d5bb941caaee0152a05"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/463/",
+      "status": 200,
+      "path": "element-summary/463.json.gz",
+      "bytes": 12356,
+      "sha256": "48741ea04950117f0bb98879ed8bfd840b076c61415656f99b64893f5ff0f3d3"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/464/",
+      "status": 200,
+      "path": "element-summary/464.json.gz",
+      "bytes": 14750,
+      "sha256": "d8095c85fd409b67e1d78a660cf2bb4549b83c6ea8e7f1d23efbfc6054abd257"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/465/",
+      "status": 200,
+      "path": "element-summary/465.json.gz",
+      "bytes": 14092,
+      "sha256": "e75e86271b059c9a57cd0aa54ab1d1438d6aab406c36ba64534fa77fd40fb44d"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/466/",
+      "status": 200,
+      "path": "element-summary/466.json.gz",
+      "bytes": 12898,
+      "sha256": "f46e88e25e24d30ea2ca4510a28a15e3968980d7c829fd515b380bc83508c5f2"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/467/",
+      "status": 200,
+      "path": "element-summary/467.json.gz",
+      "bytes": 13539,
+      "sha256": "1cdc55fc10f7050258ebce4fd7cf5c883404adb1ca41de05529a1c0aacf96817"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/468/",
+      "status": 200,
+      "path": "element-summary/468.json.gz",
+      "bytes": 12314,
+      "sha256": "2924845ab42850c48565e607532ab1199a6b9661823d3e17b2ebecf2316f2e41"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/469/",
+      "status": 200,
+      "path": "element-summary/469.json.gz",
+      "bytes": 15902,
+      "sha256": "36c48c09898958c04590ee8ef4dcdf7826d965a640cda5e90b03fe038e7e62d3"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/47/",
+      "status": 200,
+      "path": "element-summary/47.json.gz",
+      "bytes": 14094,
+      "sha256": "b18adf67e2bdcb682a0aa939c75755920280c50393a2cafd92400c1ce5483427"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/470/",
+      "status": 200,
+      "path": "element-summary/470.json.gz",
+      "bytes": 12920,
+      "sha256": "41c581b3505711bbe344bcbeef841c1f945c0b49273d6be9d3ffd5fc497fefac"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/471/",
+      "status": 200,
+      "path": "element-summary/471.json.gz",
+      "bytes": 12958,
+      "sha256": "5ead6530496af54e15da9bd9c3ed4fe42ea5a2a57ee1a1eb7b858be262a5ffe9"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/472/",
+      "status": 200,
+      "path": "element-summary/472.json.gz",
+      "bytes": 13559,
+      "sha256": "cd31839e4786780044725dfc666ee68ec5ee9f822b941a093048dd5823f3804a"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/473/",
+      "status": 200,
+      "path": "element-summary/473.json.gz",
+      "bytes": 15297,
+      "sha256": "b8e15b8905317aba8c1ac0868de68da28cef917ac5e69adf60df95199aaf6197"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/474/",
+      "status": 200,
+      "path": "element-summary/474.json.gz",
+      "bytes": 12339,
+      "sha256": "96e52f755d8fa75e66fa74403a1e0b3464548bae0a3ec8e0399d68db4b3482d7"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/475/",
+      "status": 200,
+      "path": "element-summary/475.json.gz",
+      "bytes": 12314,
+      "sha256": "e936bc91917b213cbb041119a8f02912280abfbea4eb137a473b5771194523bb"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/476/",
+      "status": 200,
+      "path": "element-summary/476.json.gz",
+      "bytes": 14045,
+      "sha256": "757f965ba1d3a96b6247b48adc6d856501daa834475f4e033629715572ad6838"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/477/",
+      "status": 200,
+      "path": "element-summary/477.json.gz",
+      "bytes": 12898,
+      "sha256": "83d014f6673a8273c66ecc60495ac70c402944e9a57da4e620706d7875ae58c2"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/478/",
+      "status": 200,
+      "path": "element-summary/478.json.gz",
+      "bytes": 12322,
+      "sha256": "ba5b77283c8184e58e72c9029edf32b6e214ba06d8e6c32acb4611abafd56f4a"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/479/",
+      "status": 200,
+      "path": "element-summary/479.json.gz",
+      "bytes": 11741,
+      "sha256": "e43d61a15bcd83e90b53af40e1da39343acddc9da2d4e4c64a07eb470fd0abed"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/48/",
+      "status": 200,
+      "path": "element-summary/48.json.gz",
+      "bytes": 14071,
+      "sha256": "29d8905bb5cb32b1a278b0b58d547efa6b57e32a2abc4afa87728fc838a8dec6"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/480/",
+      "status": 200,
+      "path": "element-summary/480.json.gz",
+      "bytes": 16514,
+      "sha256": "5ac241f89159655e0e4377fee44d6127516ad62ddd750793b582d972fe816d15"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/481/",
+      "status": 200,
+      "path": "element-summary/481.json.gz",
+      "bytes": 15311,
+      "sha256": "fb180329debe05b4c7f2670ef169f35e060c54f4590d88a40a918d5fdf64d210"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/482/",
+      "status": 200,
+      "path": "element-summary/482.json.gz",
+      "bytes": 17041,
+      "sha256": "7d86df9b0f79c32c0db590b027e60582b7da798b9bf9d2e6f8d781e720dbd39a"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/483/",
+      "status": 200,
+      "path": "element-summary/483.json.gz",
+      "bytes": 12354,
+      "sha256": "90a02e2883923f7bb94024d3901eef5690cdffab91938d350329884e08ea385c"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/484/",
+      "status": 200,
+      "path": "element-summary/484.json.gz",
+      "bytes": 14085,
+      "sha256": "3f701e8b7491ecbfd51eeea6bc81fc4bcb16e429bc6470799eda6d1e023b54d0"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/485/",
+      "status": 200,
+      "path": "element-summary/485.json.gz",
+      "bytes": 12316,
+      "sha256": "5b47a9f6f6cbca9b9fa33fb08613678df3b26b5180ecb5379016baf540248fda"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/486/",
+      "status": 200,
+      "path": "element-summary/486.json.gz",
+      "bytes": 14672,
+      "sha256": "6d1f693a9f431988217405d99c3d3899742fc472024ec4e8007e0e54c493a2e7"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/487/",
+      "status": 200,
+      "path": "element-summary/487.json.gz",
+      "bytes": 13517,
+      "sha256": "f557b1e6a0f52c316a2b8017bbaa626cbaaf257bfe3290b81746c68043bc8128"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/488/",
+      "status": 200,
+      "path": "element-summary/488.json.gz",
+      "bytes": 13530,
+      "sha256": "fd7cc932de55547d50642068416f11bc0d9ffeb31f2036f78b3335f5df17e33a"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/489/",
+      "status": 200,
+      "path": "element-summary/489.json.gz",
+      "bytes": 14122,
+      "sha256": "39db3bc37396a5f82b144adb7bfb33a441e82ea2c7c3f4434291b9a8e90d19bc"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/49/",
+      "status": 200,
+      "path": "element-summary/49.json.gz",
+      "bytes": 12834,
+      "sha256": "e1b6c0a4a483dd83e605d5bd8a2deece55dd96b02d00c9af842cc7d1c3efcb5f"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/490/",
+      "status": 200,
+      "path": "element-summary/490.json.gz",
+      "bytes": 18828,
+      "sha256": "c411fa2cf1d535b520cad7a47467d13c463cceef40125c0dfa69d844d5978b67"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/491/",
+      "status": 200,
+      "path": "element-summary/491.json.gz",
+      "bytes": 12369,
+      "sha256": "ee484817a1780653c302e07fd4a19015d386d833569f953e3171c5d9716b850d"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/492/",
+      "status": 200,
+      "path": "element-summary/492.json.gz",
+      "bytes": 14091,
+      "sha256": "2c8bd9ee7a1e8f968ca2a04448c50b2a354f5295f1586cd6a9ae571cc4b59f10"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/493/",
+      "status": 200,
+      "path": "element-summary/493.json.gz",
+      "bytes": 12313,
+      "sha256": "534baaf1d803b266c5c0e9cc1d2bbdd89d0007ae0ff9c22c47c60ca26e2c9496"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/494/",
+      "status": 200,
+      "path": "element-summary/494.json.gz",
+      "bytes": 13511,
+      "sha256": "29012507a4f302fc593c22fd56e2b7163c120170cc6fc787a1e75774ee67e722"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/495/",
+      "status": 200,
+      "path": "element-summary/495.json.gz",
+      "bytes": 15202,
+      "sha256": "01312786c9d042348a50e1217738ea058ffef384381a4c694a4a909e010834ea"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/496/",
+      "status": 200,
+      "path": "element-summary/496.json.gz",
+      "bytes": 12951,
+      "sha256": "9ba793a4754d8944fc2f4c14d99f6537921f2a34c037682416509fc5748108c9"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/497/",
+      "status": 200,
+      "path": "element-summary/497.json.gz",
+      "bytes": 17052,
+      "sha256": "f836c23344e21d4003361e55b2dac36c2bf1c2ad5829ca6053eae6d8d0ddb607"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/498/",
+      "status": 200,
+      "path": "element-summary/498.json.gz",
+      "bytes": 14148,
+      "sha256": "725617200b5673c89724d24144b9a1afa731984fd18e94478ed48b84614f3a05"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/499/",
+      "status": 200,
+      "path": "element-summary/499.json.gz",
+      "bytes": 14157,
+      "sha256": "02e8adae79cafb5d625e08520be8047c5ea4f8ca0d94774e8a3412c202ad86da"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/5/",
+      "status": 200,
+      "path": "element-summary/5.json.gz",
+      "bytes": 13472,
+      "sha256": "9cc9d6f63a4b33b7f53ec2213c737b01fd4f47b4f64234a01ff8a8738e28430d"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/50/",
+      "status": 200,
+      "path": "element-summary/50.json.gz",
+      "bytes": 12285,
+      "sha256": "9be873404794baf360eaeace0a96bc1033c598e9de43b09e20cb0cefb135c983"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/500/",
+      "status": 200,
+      "path": "element-summary/500.json.gz",
+      "bytes": 14707,
+      "sha256": "53ff74543336e36c5ced470fa19327e755e8daeeac5f2c93c5fe32acef0cf760"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/501/",
+      "status": 200,
+      "path": "element-summary/501.json.gz",
+      "bytes": 13516,
+      "sha256": "4ad10f7f1552608f989ae4106be5d13fbdd76384ba9ca09875248aa1d4834f0e"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/502/",
+      "status": 200,
+      "path": "element-summary/502.json.gz",
+      "bytes": 18297,
+      "sha256": "97d81b0af3f7336379f82710fe40087b1f8584ad386bd65003849f6eeb7fcc9e"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/503/",
+      "status": 200,
+      "path": "element-summary/503.json.gz",
+      "bytes": 13549,
+      "sha256": "18b6c11a297fbe990bc16f48fc7137ce9376455cfc068fb1f6f3d828f3130dda"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/504/",
+      "status": 200,
+      "path": "element-summary/504.json.gz",
+      "bytes": 12316,
+      "sha256": "eafa64047a2869e1cacf89a24cde026623b3e64606c9b8ff44d0db0825fcd169"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/505/",
+      "status": 200,
+      "path": "element-summary/505.json.gz",
+      "bytes": 14086,
+      "sha256": "d60653027d02dc60575ab76759e20ddcaeedc888d0da28aeed454cab9ebdd40d"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/506/",
+      "status": 200,
+      "path": "element-summary/506.json.gz",
+      "bytes": 13532,
+      "sha256": "17d6d8dc5a6b0581aff891b924613a379e898f8e074e6a73041760cd799cb621"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/507/",
+      "status": 200,
+      "path": "element-summary/507.json.gz",
+      "bytes": 13454,
+      "sha256": "d5468c0409fc93af96952d4b2db565357b56b400e0da67b3ff9bf42c18472aec"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/508/",
+      "status": 200,
+      "path": "element-summary/508.json.gz",
+      "bytes": 19982,
+      "sha256": "bbccd66b4a013487559ce807de673bf66e003a9e883858937f88097518339db1"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/509/",
+      "status": 200,
+      "path": "element-summary/509.json.gz",
+      "bytes": 12304,
+      "sha256": "b982b06068f40c9f1112043953119670eec65bf890f2d907a2f9ec0560192a2a"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/51/",
+      "status": 200,
+      "path": "element-summary/51.json.gz",
+      "bytes": 12303,
+      "sha256": "b81ebda8c9e3dcc24dbaea1f24b04a0d4aab7eb9bfd136b7b7e1a1eef2c67b1e"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/510/",
+      "status": 200,
+      "path": "element-summary/510.json.gz",
+      "bytes": 12305,
+      "sha256": "2f42774ddeb01d9a4605f7e01a00fe424e2f5762155019db633f8318bcebfe15"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/511/",
+      "status": 200,
+      "path": "element-summary/511.json.gz",
+      "bytes": 12323,
+      "sha256": "f04a22738c2bd188914a53b4b4a06e358a3f7e2e538977e8e61de9d8312071ec"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/512/",
+      "status": 200,
+      "path": "element-summary/512.json.gz",
+      "bytes": 13534,
+      "sha256": "ca96d9f6f591a749497a3ada8f3e97fc7718ec042dc2b4a584829995fd359e0c"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/513/",
+      "status": 200,
+      "path": "element-summary/513.json.gz",
+      "bytes": 12327,
+      "sha256": "2157fbdb0d9387460f1ff918044933b3a43f6ea0a7942560076afe01627ea4ef"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/514/",
+      "status": 200,
+      "path": "element-summary/514.json.gz",
+      "bytes": 12950,
+      "sha256": "9cec570fe92c50d50996c5dadf61dccb88941f28ba14e806e6d4d796b6398450"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/515/",
+      "status": 200,
+      "path": "element-summary/515.json.gz",
+      "bytes": 16499,
+      "sha256": "e74cead3ccdd2177dcf2ed4ffaa3a716579780d74eb21be12e5151a22efcb69b"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/516/",
+      "status": 200,
+      "path": "element-summary/516.json.gz",
+      "bytes": 14722,
+      "sha256": "77c0192cbb4e1e95f73662c31087d298991218af70c77d197cdd5b4dadc55507"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/517/",
+      "status": 200,
+      "path": "element-summary/517.json.gz",
+      "bytes": 13495,
+      "sha256": "ae08d1446b7beebeaceaa75a9f240021d099eaa8476d016758c0227cbef7c6ff"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/518/",
+      "status": 200,
+      "path": "element-summary/518.json.gz",
+      "bytes": 14110,
+      "sha256": "9a1382b6e5be8c58b03c9712354c5ed6b5b11af165a58c6af540a7ac316405c0"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/519/",
+      "status": 200,
+      "path": "element-summary/519.json.gz",
+      "bytes": 15297,
+      "sha256": "2d51f10200bf38559871305b7aff07db3d3efea906383286ece2b6f5d08363ad"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/52/",
+      "status": 200,
+      "path": "element-summary/52.json.gz",
+      "bytes": 12281,
+      "sha256": "aba0da56f23039b0473dfa852bbee3dee6e85dd3d5303e3dd49d6201a7eb9abd"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/520/",
+      "status": 200,
+      "path": "element-summary/520.json.gz",
+      "bytes": 12932,
+      "sha256": "ffe44f11456116500f62db34d2ed7173abb2b5adf9611dbd151b4c349b9e894a"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/521/",
+      "status": 200,
+      "path": "element-summary/521.json.gz",
+      "bytes": 14675,
+      "sha256": "eaebab66b3b17caa8429f9ee3165914ae3f6c1a14deef72e4e799f4a534d3dbe"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/522/",
+      "status": 200,
+      "path": "element-summary/522.json.gz",
+      "bytes": 14091,
+      "sha256": "e5fd0d50250378d784407d6f426702dc61ffcf5957273e6e9097e4b19e16dfda"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/523/",
+      "status": 200,
+      "path": "element-summary/523.json.gz",
+      "bytes": 13481,
+      "sha256": "83de3857805bfeb2c3777c23fac7555c7a7ef31c58d14c2c88e7a1985647c0a8"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/524/",
+      "status": 200,
+      "path": "element-summary/524.json.gz",
+      "bytes": 12898,
+      "sha256": "b0a234b3dcace1bde5117db9cb195fe5510b78a58e674d68798095ec157b1225"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/525/",
+      "status": 200,
+      "path": "element-summary/525.json.gz",
+      "bytes": 12962,
+      "sha256": "18f9e570fff997179beaa4ecc576c6b7e194c5c3f18ea9f2debc2e04e84e9a02"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/526/",
+      "status": 200,
+      "path": "element-summary/526.json.gz",
+      "bytes": 17638,
+      "sha256": "da5680fd612be3f51a77140c5924b5972a0e088ae8be4111abc74d16f9579f5d"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/527/",
+      "status": 200,
+      "path": "element-summary/527.json.gz",
+      "bytes": 17106,
+      "sha256": "3fda47fb858d0d9b10cf0192b2ae4c6678cd7a5e9568555d946a07df6f04b48c"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/528/",
+      "status": 200,
+      "path": "element-summary/528.json.gz",
+      "bytes": 15215,
+      "sha256": "9eab09c6baab8c2d95e9aaf00e95db42184cf5a28676bfd16b72ce989c6046c6"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/529/",
+      "status": 200,
+      "path": "element-summary/529.json.gz",
+      "bytes": 12364,
+      "sha256": "1d648dd29c55746f1c5e85a39347e5b0bab9eb79b31d1277028694e942d77075"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/53/",
+      "status": 200,
+      "path": "element-summary/53.json.gz",
+      "bytes": 11708,
+      "sha256": "9723dc36c11aa506fa3022dd3e08cd0b3db8d2e5ccdbae5ec29b11b802fc1420"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/530/",
+      "status": 200,
+      "path": "element-summary/530.json.gz",
+      "bytes": 12311,
+      "sha256": "9aebd93a48638d1f8e3f2dbc31a93b50b462efbc0d05f85d43091d6bf85aafb8"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/531/",
+      "status": 200,
+      "path": "element-summary/531.json.gz",
+      "bytes": 12316,
+      "sha256": "079ce01dbb9550edec0c885491c6ef7a6f015a2c4f47d825ac3f81a98ee17b27"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/532/",
+      "status": 200,
+      "path": "element-summary/532.json.gz",
+      "bytes": 12372,
+      "sha256": "55142f2c0f366b29327808cf6aeefbdbb2d37dad6cde57c393073009e4efc29f"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/533/",
+      "status": 200,
+      "path": "element-summary/533.json.gz",
+      "bytes": 12372,
+      "sha256": "69daa7aa12c6c7b6a29a0a0575b3a002ddc33c932c7cdad30c132d9eaf7f6cc7"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/534/",
+      "status": 200,
+      "path": "element-summary/534.json.gz",
+      "bytes": 12370,
+      "sha256": "3c070f0bdeabd31c26b0aebada503f641dbe16d9598c716c50dd87f077a7d96a"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/535/",
+      "status": 200,
+      "path": "element-summary/535.json.gz",
+      "bytes": 12349,
+      "sha256": "38deeb32434bebc37984a83871ec5ad07751df503605ed0fd3b0466a46bb3275"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/536/",
+      "status": 200,
+      "path": "element-summary/536.json.gz",
+      "bytes": 12354,
+      "sha256": "df304644dd35f5aa511b15b7a7106814a2b360e25e52c14c3bc182d05f0c029a"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/537/",
+      "status": 200,
+      "path": "element-summary/537.json.gz",
+      "bytes": 12305,
+      "sha256": "3b37165737c01c76e6e2016561f3ba374c683238290a6d7c86d8a8f17ae7b80f"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/538/",
+      "status": 200,
+      "path": "element-summary/538.json.gz",
+      "bytes": 13460,
+      "sha256": "81e1feab830cde74f34ce5e1858c761da15714dd2299c36a672b6c6c82eb6298"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/539/",
+      "status": 200,
+      "path": "element-summary/539.json.gz",
+      "bytes": 12346,
+      "sha256": "656536a42a9fcd8073abc22f2268c5051b23c103d77721a95b99a868509174aa"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/54/",
+      "status": 200,
+      "path": "element-summary/54.json.gz",
+      "bytes": 14081,
+      "sha256": "7f4518cfb960bf902707e40b87f836c9958a27c18f28ccabd2d58b9486561712"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/540/",
+      "status": 200,
+      "path": "element-summary/540.json.gz",
+      "bytes": 16425,
+      "sha256": "c6bd97cc5b70f195bf618e56258c08ef52ae62201c094aabd25a50384b9f48a6"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/541/",
+      "status": 200,
+      "path": "element-summary/541.json.gz",
+      "bytes": 11753,
+      "sha256": "93bb98a59ac13c133af97d554912dd32c4c0eba470684dc413f6db4f3483e443"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/542/",
+      "status": 200,
+      "path": "element-summary/542.json.gz",
+      "bytes": 12379,
+      "sha256": "bdd8fd2ef354ae08cf12d06f33ab56fa23e55b7127faf695412b5ddfa5751baf"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/543/",
+      "status": 200,
+      "path": "element-summary/543.json.gz",
+      "bytes": 12338,
+      "sha256": "323b23ab75cab10827e7190bc741cb2bb3af4a1abc80af192f86dfc2754289e5"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/544/",
+      "status": 200,
+      "path": "element-summary/544.json.gz",
+      "bytes": 17093,
+      "sha256": "c6e5f6623a0895b0c4201afe507d488e98574b852c537d8db1e03af11856d950"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/545/",
+      "status": 200,
+      "path": "element-summary/545.json.gz",
+      "bytes": 12361,
+      "sha256": "349a5c92a7210e6a4cb09ae5504ffaa7ad5a57b3ae44e0b14f079e1b0f540664"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/546/",
+      "status": 200,
+      "path": "element-summary/546.json.gz",
+      "bytes": 13512,
+      "sha256": "6230107087d719c90c392c6fd455546c80ccdb8a807422b5811dead47ed48d85"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/547/",
+      "status": 200,
+      "path": "element-summary/547.json.gz",
+      "bytes": 12889,
+      "sha256": "1b8bd722c4988ff8dfa390cfbf253eda67ad1024cacdc39b6c03847de25179c3"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/548/",
+      "status": 200,
+      "path": "element-summary/548.json.gz",
+      "bytes": 12328,
+      "sha256": "442a207b111fbc4f767762dfef47d42534773d9a71411649d2e8ecd1d2a0a24d"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/549/",
+      "status": 200,
+      "path": "element-summary/549.json.gz",
+      "bytes": 12340,
+      "sha256": "cfb2227dc52faa6a0884a6e3ccccc72a61e40e636c91f5f7a6c198cf81d82e2a"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/55/",
+      "status": 200,
+      "path": "element-summary/55.json.gz",
+      "bytes": 15320,
+      "sha256": "9bc985512632169e3bbc5bb874fdd1e079cb0a5990acc33d1af4cd81df10f158"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/550/",
+      "status": 200,
+      "path": "element-summary/550.json.gz",
+      "bytes": 12299,
+      "sha256": "741e71890a91efdef0f96dac0a54532e78c61197834dd088dfc894df0194dfee"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/551/",
+      "status": 200,
+      "path": "element-summary/551.json.gz",
+      "bytes": 12341,
+      "sha256": "074d3b54f848e864ecd96dd45aac82ce8de2d78bd911a8b2b26a1c8c47daec3e"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/552/",
+      "status": 200,
+      "path": "element-summary/552.json.gz",
+      "bytes": 12372,
+      "sha256": "0b21e5aa3b6f684567e1139acb6da68f4c7bfb677cddbf66b297e4914de66218"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/553/",
+      "status": 200,
+      "path": "element-summary/553.json.gz",
+      "bytes": 12358,
+      "sha256": "82efddeed71a08afde31f6112d98f0f715e9bb25769d7fd5fc4b9782850fd3cf"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/554/",
+      "status": 200,
+      "path": "element-summary/554.json.gz",
+      "bytes": 11728,
+      "sha256": "1bf5f3b5abe4d9ad5a9e9b5409aa8ff4311604c0259b230717848d9a9c657f31"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/555/",
+      "status": 200,
+      "path": "element-summary/555.json.gz",
+      "bytes": 14596,
+      "sha256": "b15d6f674e7b8a0995adca389c07bbfc7742df5a699d697b2961aa7af688ad7c"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/556/",
+      "status": 200,
+      "path": "element-summary/556.json.gz",
+      "bytes": 19344,
+      "sha256": "3470ffe891a4c14f0fd4b89f7e7e5a3c7da662139e89f74962f4fe6abf3ec544"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/557/",
+      "status": 200,
+      "path": "element-summary/557.json.gz",
+      "bytes": 12333,
+      "sha256": "740912ab737ff67a8fc50d104e66134c8151b06c53877c2b1f615b81b66009af"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/558/",
+      "status": 200,
+      "path": "element-summary/558.json.gz",
+      "bytes": 11754,
+      "sha256": "5b7ffe865007b8959106301bff29b7073ec52854ba0131234b736b793d33399b"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/559/",
+      "status": 200,
+      "path": "element-summary/559.json.gz",
+      "bytes": 11744,
+      "sha256": "5c8c634efe87a55301e5abfa3fb61f0cfd08ddbd51ffdf25ac94e4417b06f65d"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/56/",
+      "status": 200,
+      "path": "element-summary/56.json.gz",
+      "bytes": 15801,
+      "sha256": "3cda2a88e8aaa53128f508aa4547d4bb6b07b2abae7d879ccb273e5b8a6de5ec"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/560/",
+      "status": 200,
+      "path": "element-summary/560.json.gz",
+      "bytes": 12279,
+      "sha256": "f7a0b349b37940221140e49d7bc19c4688c2f8eefa3408b6efae9efc52f06721"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/561/",
+      "status": 200,
+      "path": "element-summary/561.json.gz",
+      "bytes": 12851,
+      "sha256": "2b2212b25889ac7f5b2c2e48db4183e8e2c27bb4cb8501c4b33b7427f6e05fe1"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/562/",
+      "status": 200,
+      "path": "element-summary/562.json.gz",
+      "bytes": 11751,
+      "sha256": "c2873a4b8c9791792055a8363db9316485704df8fe32c5225d6e8469eec867c3"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/563/",
+      "status": 200,
+      "path": "element-summary/563.json.gz",
+      "bytes": 11735,
+      "sha256": "d626824ab130a7684c147e02efe30b0a335deb71bf6e8d05a2a0202a73265168"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/564/",
+      "status": 200,
+      "path": "element-summary/564.json.gz",
+      "bytes": 14059,
+      "sha256": "035e64ba4c87d7603866e921fd36ac1c4e18e7dbe43d2bf8e67975be4357cdd8"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/565/",
+      "status": 200,
+      "path": "element-summary/565.json.gz",
+      "bytes": 11753,
+      "sha256": "2c8b91b6a0440efd154f98d27a154fcc41fef49ea5a6a1b7ef205eec5f802180"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/566/",
+      "status": 200,
+      "path": "element-summary/566.json.gz",
+      "bytes": 11729,
+      "sha256": "c68c834d63a2b92c96b88b4cb1207a1376aeec4b239571aac14263d18edffcec"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/567/",
+      "status": 200,
+      "path": "element-summary/567.json.gz",
+      "bytes": 11762,
+      "sha256": "2ac6a1fde553ce3a5d10e63f141bffd661cc2c5bcdc19cb0883622a16d14d556"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/568/",
+      "status": 200,
+      "path": "element-summary/568.json.gz",
+      "bytes": 12872,
+      "sha256": "0f84dd4821701e876ad56a01a9458f0b749bb22e23e8f206b417a4a0face784c"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/569/",
+      "status": 200,
+      "path": "element-summary/569.json.gz",
+      "bytes": 11775,
+      "sha256": "50dfd52d91a604594a2c98f8cff615446ac9b67e92916cc7e67622c21093c190"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/57/",
+      "status": 200,
+      "path": "element-summary/57.json.gz",
+      "bytes": 13488,
+      "sha256": "45d96a4c13158ce60375a3badcb5afe28f416b8fa4eda3ec889bc7a6491d33b1"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/570/",
+      "status": 200,
+      "path": "element-summary/570.json.gz",
+      "bytes": 11752,
+      "sha256": "be0a9d138b89512a5173dd311aeddca63b070e382c51d0c8701119b87a4eba22"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/571/",
+      "status": 200,
+      "path": "element-summary/571.json.gz",
+      "bytes": 12339,
+      "sha256": "fb31b9b05965ab2aafc2d94b3aee953b4c85deba2c6c68f95f04a1745cafe25c"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/572/",
+      "status": 200,
+      "path": "element-summary/572.json.gz",
+      "bytes": 11779,
+      "sha256": "23b91a747e32beae46fa01475df28ed5f9958e5173f811125aa9d0887fb2abae"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/573/",
+      "status": 200,
+      "path": "element-summary/573.json.gz",
+      "bytes": 11711,
+      "sha256": "15f9572b68b54cecde727a2c0d20f6f3c45ba711f53b30b3a01e59aa913c3cbc"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/574/",
+      "status": 200,
+      "path": "element-summary/574.json.gz",
+      "bytes": 11735,
+      "sha256": "1ebea3e61a7b43db3f10875a8fce8045473e5f04d153d54b9fb049592b2ecc18"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/575/",
+      "status": 200,
+      "path": "element-summary/575.json.gz",
+      "bytes": 11718,
+      "sha256": "e7eb14020cda37276a703f3a6b0bf8f7ea7614a56744079e08f8d716031b16f8"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/576/",
+      "status": 200,
+      "path": "element-summary/576.json.gz",
+      "bytes": 11742,
+      "sha256": "9607fbf06066c1b2cb6209e727399315ef68951846ab6dc09cc209b379b93a6e"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/577/",
+      "status": 200,
+      "path": "element-summary/577.json.gz",
+      "bytes": 14062,
+      "sha256": "8870bf70dee3ac5fe246d17d0c8549aecb0f75918b91555ffbcd29594431f1cb"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/578/",
+      "status": 200,
+      "path": "element-summary/578.json.gz",
+      "bytes": 14079,
+      "sha256": "1fca794d9bbff6e5fc314d35e3962d731144dd7ada2e3f462bd2a2850fdb6b4e"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/579/",
+      "status": 200,
+      "path": "element-summary/579.json.gz",
+      "bytes": 11767,
+      "sha256": "0610ece6eb347f9b376f8113cc6137d9d0cf2519a02cdfc77078f521f4ed7939"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/58/",
+      "status": 200,
+      "path": "element-summary/58.json.gz",
+      "bytes": 20433,
+      "sha256": "4a9846b2bfcb5bcb6a2bab019f8b8a54e259ce41f799a1190f1fbd33ffd30850"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/580/",
+      "status": 200,
+      "path": "element-summary/580.json.gz",
+      "bytes": 13475,
+      "sha256": "f42a25b5387764f458e5830b8a472bda48f9654c4ed9e864ff2dc009e621c103"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/581/",
+      "status": 200,
+      "path": "element-summary/581.json.gz",
+      "bytes": 11755,
+      "sha256": "c4d576351c2687877fdcdec3f619f61625208929962fa48acca7c8bd37678ab8"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/582/",
+      "status": 200,
+      "path": "element-summary/582.json.gz",
+      "bytes": 11712,
+      "sha256": "0db361e9a564b34600def46ad507734b2819474cc162b0b6bcfda884ee41cf64"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/583/",
+      "status": 200,
+      "path": "element-summary/583.json.gz",
+      "bytes": 11718,
+      "sha256": "ecc9aa270f9721a6d39102c4af23ce37b784c61a696e4a641a7b00581080fa79"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/584/",
+      "status": 200,
+      "path": "element-summary/584.json.gz",
+      "bytes": 12305,
+      "sha256": "7cb567b3ef0da677582a257384094f499843c2851939f0f5ab294ba0ee914cf9"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/585/",
+      "status": 200,
+      "path": "element-summary/585.json.gz",
+      "bytes": 11750,
+      "sha256": "994b16064356d24a6b5e5b2a0e56454beac3063ed8f76841a58da285ad5e4a4a"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/586/",
+      "status": 200,
+      "path": "element-summary/586.json.gz",
+      "bytes": 11776,
+      "sha256": "cdf094f1fe8f44620226b6847ead1286fa4dc44420410144f68aaa60d2ae71f9"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/587/",
+      "status": 200,
+      "path": "element-summary/587.json.gz",
+      "bytes": 11732,
+      "sha256": "5d16e381cd6c560ba182ab2bb10efe9d76e3c7eb22e842ad68781420d5628d5b"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/588/",
+      "status": 200,
+      "path": "element-summary/588.json.gz",
+      "bytes": 11725,
+      "sha256": "69a12fa6f3dbf1bc96d7ee9bd2bf16d4833ae29d30653b858c461a3fa474c2f1"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/589/",
+      "status": 200,
+      "path": "element-summary/589.json.gz",
+      "bytes": 11739,
+      "sha256": "63960bc3ffc7b4747becd7862a4d003b72a238317a529c5284d3a78be2ff3dbe"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/59/",
+      "status": 200,
+      "path": "element-summary/59.json.gz",
+      "bytes": 13430,
+      "sha256": "39d516791e16398b83f3eae0d1b632574828c845479e37d2fa3710cb6fd4ce71"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/590/",
+      "status": 200,
+      "path": "element-summary/590.json.gz",
+      "bytes": 13455,
+      "sha256": "2df66bd9b6b4ac6d150c70325fbdd1f1b542d92b7e70e7cc4093478047fb357b"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/591/",
+      "status": 200,
+      "path": "element-summary/591.json.gz",
+      "bytes": 14114,
+      "sha256": "b9e6df1945bb41d9b4203db5f5f22195865765a89cf9828ec27ab193a86e0cd2"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/592/",
+      "status": 200,
+      "path": "element-summary/592.json.gz",
+      "bytes": 11753,
+      "sha256": "1b178bb0286494986b8a8fc548a512b6f5b26ef905bf6bf290555ce683052bb4"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/593/",
+      "status": 200,
+      "path": "element-summary/593.json.gz",
+      "bytes": 11769,
+      "sha256": "042eedf14a91aa58c77c9317efeeec978092e28c9445c3438454c683d72eeb4e"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/594/",
+      "status": 200,
+      "path": "element-summary/594.json.gz",
+      "bytes": 11717,
+      "sha256": "366e804f7beea2c18af8c43ecbe09cf701a3b09cbbebd24e10f5d3690c17c118"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/595/",
+      "status": 200,
+      "path": "element-summary/595.json.gz",
+      "bytes": 11699,
+      "sha256": "f3fd90bada504f12cecedde235bdcf7a880fad4f6c5576b500d085dd68ce87b5"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/596/",
+      "status": 200,
+      "path": "element-summary/596.json.gz",
+      "bytes": 11707,
+      "sha256": "53c5d93ccba2c1ee0f414157edc152e9e8bd8c3e9af7d37757772a9bcdf620ae"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/597/",
+      "status": 200,
+      "path": "element-summary/597.json.gz",
+      "bytes": 11730,
+      "sha256": "5ca8779ceb3f1aa5e11d41fdec6de9973c7afe8fcb4797372aed854a937ac3f4"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/598/",
+      "status": 200,
+      "path": "element-summary/598.json.gz",
+      "bytes": 11743,
+      "sha256": "c38e2569596991c351ddfa72aec7334b1a3315bd0188b7c1ae9948308630e622"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/599/",
+      "status": 200,
+      "path": "element-summary/599.json.gz",
+      "bytes": 11709,
+      "sha256": "1eea14ca8248e73c15cafe516d4631344c22d53ab928bee84101b64bbd2715be"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/6/",
+      "status": 200,
+      "path": "element-summary/6.json.gz",
+      "bytes": 15243,
+      "sha256": "28e72f69ffdfd94cfe3e0bb0f11a2ecca87c930b587c173926ae80a53134526b"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/60/",
+      "status": 200,
+      "path": "element-summary/60.json.gz",
+      "bytes": 14064,
+      "sha256": "f384ff4bdb3522ce65f594d290fb7cbc05e60341f42f4bda26abb0dffae7ee07"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/600/",
+      "status": 200,
+      "path": "element-summary/600.json.gz",
+      "bytes": 12276,
+      "sha256": "ca01737dcee10fde1fc00837a045f45205f2ca1c23ca8b76d97c6f43c720ef0b"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/601/",
+      "status": 200,
+      "path": "element-summary/601.json.gz",
+      "bytes": 12887,
+      "sha256": "4039bef62ce0ab94c74cbb229a4cec45559427c8af16e1135d3cbaa813143c2e"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/602/",
+      "status": 200,
+      "path": "element-summary/602.json.gz",
+      "bytes": 12304,
+      "sha256": "675f9ec4b919f8d13b51c63b133bdb93705a1cecbfd9e671a64dd9583d72e791"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/603/",
+      "status": 200,
+      "path": "element-summary/603.json.gz",
+      "bytes": 12311,
+      "sha256": "e516e9c203895d1c522e44c8be85c6a207cc23335550735bc7af5b4c9d9bbd3e"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/604/",
+      "status": 200,
+      "path": "element-summary/604.json.gz",
+      "bytes": 12312,
+      "sha256": "e41c3fc008a8ae2ed8e3bb4097eec24ed1987792a2de1f6670d158b03e4f7bef"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/605/",
+      "status": 200,
+      "path": "element-summary/605.json.gz",
+      "bytes": 12308,
+      "sha256": "3c9c3ab3c50e89cebaf77b68bb81d46808f68eb2f53a7b6c6b4bfe91f75ec851"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/606/",
+      "status": 200,
+      "path": "element-summary/606.json.gz",
+      "bytes": 12280,
+      "sha256": "107390ba461158f1151aa9c32f0c2524090c34b42eb5e76a98017717524bef25"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/607/",
+      "status": 200,
+      "path": "element-summary/607.json.gz",
+      "bytes": 11702,
+      "sha256": "c06c3416e08e4a4f964724f1a448d637a6675a134b278dcd4c63b1247355feb7"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/608/",
+      "status": 200,
+      "path": "element-summary/608.json.gz",
+      "bytes": 13451,
+      "sha256": "1eacb4518e5d1f65b5ffc62a610d72f4c518ea89137b6d56a4f7ec781887a207"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/609/",
+      "status": 200,
+      "path": "element-summary/609.json.gz",
+      "bytes": 12315,
+      "sha256": "59676c71275597432322088b62c762faa24af761d5d6ff54912102e0fadb6aee"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/61/",
+      "status": 200,
+      "path": "element-summary/61.json.gz",
+      "bytes": 12341,
+      "sha256": "3b1c074d90deaec8305c9dddf1da6061de9b2cb07b1868ec8d00ad6a35ea3de0"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/610/",
+      "status": 200,
+      "path": "element-summary/610.json.gz",
+      "bytes": 12310,
+      "sha256": "3022a7336ac0b1d43245a39a97395f6fee57dc626641144f3f8177daa3649d3a"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/611/",
+      "status": 200,
+      "path": "element-summary/611.json.gz",
+      "bytes": 16880,
+      "sha256": "fea4734a6858455cad411b629e735ff6a88ebb83483dbb79a9940319710f5149"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/612/",
+      "status": 200,
+      "path": "element-summary/612.json.gz",
+      "bytes": 10980,
+      "sha256": "2b843b1974de66f8a9eab0f0bdc99d702d87b9107cf0b524dfe8b00b4b9ec9ea"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/613/",
+      "status": 200,
+      "path": "element-summary/613.json.gz",
+      "bytes": 10997,
+      "sha256": "4715cf2b674ca29160cb3a83818db9d1e221e402d090d95a6e21e4b1d640f3fb"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/614/",
+      "status": 200,
+      "path": "element-summary/614.json.gz",
+      "bytes": 10958,
+      "sha256": "5d163a4be406614cf79671d1ac35e260f94f7a7a44a3a9a459e8b3b7a37d7e55"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/615/",
+      "status": 200,
+      "path": "element-summary/615.json.gz",
+      "bytes": 10952,
+      "sha256": "feac6fe581b8941fb990cf9800b7b925e4939f9636268e5990d4c5a9e4af3db1"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/616/",
+      "status": 200,
+      "path": "element-summary/616.json.gz",
+      "bytes": 10998,
+      "sha256": "03d3a95d54cea9fa5d7dc686548ff28f4e143697a4a9b641d610c6f2cd65406c"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/617/",
+      "status": 200,
+      "path": "element-summary/617.json.gz",
+      "bytes": 10983,
+      "sha256": "880cce647fadd9da0d1d4ea68c4f2caa9eac88b9abeb880a47d92503a4348a2b"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/618/",
+      "status": 200,
+      "path": "element-summary/618.json.gz",
+      "bytes": 10956,
+      "sha256": "aa359b6803e1b594cc870de3d117c8688bdcc84d4a6fad82b3d88664a618ef48"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/619/",
+      "status": 200,
+      "path": "element-summary/619.json.gz",
+      "bytes": 10997,
+      "sha256": "c3a9911c9fd83520d26d01a8353fc74bf465370d941e0cf5fc3a8a6663a9842a"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/62/",
+      "status": 200,
+      "path": "element-summary/62.json.gz",
+      "bytes": 12302,
+      "sha256": "2fc079d193c18d2b824425274e8a6f5c144112810c7160caef26b39ba646d0b4"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/620/",
+      "status": 200,
+      "path": "element-summary/620.json.gz",
+      "bytes": 11560,
+      "sha256": "7821eb6a1398c8d37929c7eb60666afeecd59ffdc15ea3f4ca0740823e71a791"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/621/",
+      "status": 200,
+      "path": "element-summary/621.json.gz",
+      "bytes": 11560,
+      "sha256": "09a0cffbbf0d6d16397f60729d7e8994672d78902392e7e96f0b6ab07c579486"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/622/",
+      "status": 200,
+      "path": "element-summary/622.json.gz",
+      "bytes": 10986,
+      "sha256": "756d7eb74abba1a48287c65f3bc0a28c1b1d9c89cc17b01056f756e2c9cc52df"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/623/",
+      "status": 200,
+      "path": "element-summary/623.json.gz",
+      "bytes": 13276,
+      "sha256": "cac251a47327d40d8f33e12f9738d05d0fb2b94e10fc2eb64f4990b6d53e5c07"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/624/",
+      "status": 200,
+      "path": "element-summary/624.json.gz",
+      "bytes": 12089,
+      "sha256": "6e4a77011185076ab8ce0f18900a0b3ede84298e5b36d68d35226aa893ad33d6"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/625/",
+      "status": 200,
+      "path": "element-summary/625.json.gz",
+      "bytes": 11558,
+      "sha256": "3a038f98a121fc4ff76818d2031936d2f0a13de2cf1b77acd141357ac640ba89"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/626/",
+      "status": 200,
+      "path": "element-summary/626.json.gz",
+      "bytes": 10989,
+      "sha256": "ffceaaf77bdcfd5589e3c34f892fc3a0f06555ccac6d9e6155cc1165baf4444c"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/627/",
+      "status": 200,
+      "path": "element-summary/627.json.gz",
+      "bytes": 10257,
+      "sha256": "04841c9e2274e7ad4eeacedb07c448869fd41fa266cc00a167c43930afd59f7b"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/628/",
+      "status": 200,
+      "path": "element-summary/628.json.gz",
+      "bytes": 10233,
+      "sha256": "a65cc667cb87de7232fc3235c81f9d57be6a21c5de142f46dcaf4c62e5abb792"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/629/",
+      "status": 200,
+      "path": "element-summary/629.json.gz",
+      "bytes": 10247,
+      "sha256": "58134f7ebfb47dcb03a809359dbd5a25fea452d680a30114210c99b67d227e57"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/63/",
+      "status": 200,
+      "path": "element-summary/63.json.gz",
+      "bytes": 12277,
+      "sha256": "a01b04cb3317b24f799acb91bbb1204e22760765516ababcd38f36b012d17eb1"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/630/",
+      "status": 200,
+      "path": "element-summary/630.json.gz",
+      "bytes": 11950,
+      "sha256": "4d1c57b7124287a8b486bf3263233abdedfdf1372661391c068babcdb4d8ba4e"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/631/",
+      "status": 200,
+      "path": "element-summary/631.json.gz",
+      "bytes": 10212,
+      "sha256": "6cc01e3d0c88d6720589068f1d3848ef814a58bf695080548d3f412512b2d322"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/632/",
+      "status": 200,
+      "path": "element-summary/632.json.gz",
+      "bytes": 10240,
+      "sha256": "73fd1229e6cad2007ec72ac16ccc9dc495cdd589eeb5fd695cfa0403fbba6047"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/633/",
+      "status": 200,
+      "path": "element-summary/633.json.gz",
+      "bytes": 10206,
+      "sha256": "313e9f3827b7f47b6ea1a82d19cda7ffdb13475beff73d6adf7d29b747142faa"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/634/",
+      "status": 200,
+      "path": "element-summary/634.json.gz",
+      "bytes": 10243,
+      "sha256": "97dcbe34f6561c0092401856f251680fb637b8f9ecc4a514ab83dda2d956128c"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/635/",
+      "status": 200,
+      "path": "element-summary/635.json.gz",
+      "bytes": 10233,
+      "sha256": "887e4a1a5f3964ccf3df1875cf2f6c73908f0b9f5209c130cde3a32153d15c9b"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/636/",
+      "status": 200,
+      "path": "element-summary/636.json.gz",
+      "bytes": 10230,
+      "sha256": "0127317f3f730d550ce7d7232b9295c15e3f0d00fbe130fb94e6636462d9c1a1"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/637/",
+      "status": 200,
+      "path": "element-summary/637.json.gz",
+      "bytes": 10239,
+      "sha256": "52d8739c476e5b2d0e25aebdfc6923000848876275ac0e97115e6e389f1f6781"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/638/",
+      "status": 200,
+      "path": "element-summary/638.json.gz",
+      "bytes": 10245,
+      "sha256": "84eb139457487de462523e26a2a64f8028a977228179e1031c3fe91d05352b03"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/639/",
+      "status": 200,
+      "path": "element-summary/639.json.gz",
+      "bytes": 10205,
+      "sha256": "e7314ee8c9c73569900745d8c639eba9221ef6976472640ec26b8bffef605a3c"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/64/",
+      "status": 200,
+      "path": "element-summary/64.json.gz",
+      "bytes": 18171,
+      "sha256": "af894843db2c984d9afa556c953675041ea59350d17c83c799823ce1d3a3816d"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/640/",
+      "status": 200,
+      "path": "element-summary/640.json.gz",
+      "bytes": 10841,
+      "sha256": "1bbeda8bc7fef5ef1a2d61a46eca385f861d0371a9c715376954e0a40a3f6a78"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/641/",
+      "status": 200,
+      "path": "element-summary/641.json.gz",
+      "bytes": 10234,
+      "sha256": "d56f9fdaae7c5338ecff310dda65bd56300ef8cc80fe6c35937b8145d9a316eb"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/642/",
+      "status": 200,
+      "path": "element-summary/642.json.gz",
+      "bytes": 10237,
+      "sha256": "25c9a3866892fbca9ad503bd245646e29fbe08422f7addb8f5349d4bdce81bd7"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/643/",
+      "status": 200,
+      "path": "element-summary/643.json.gz",
+      "bytes": 16097,
+      "sha256": "96fee20fd6fe2e228e927c5147181c8c247c9cce23bc8bacec632d0934b952eb"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/644/",
+      "status": 200,
+      "path": "element-summary/644.json.gz",
+      "bytes": 10210,
+      "sha256": "eef0305abebcac1b39c7d9177cecd916a8c6cca92050c4fe304a5c9e7f408a19"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/645/",
+      "status": 200,
+      "path": "element-summary/645.json.gz",
+      "bytes": 10231,
+      "sha256": "de970b7f96ea2e39e6aa15f66b2b9284046efa74f878109cf69ca6eab6fffa90"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/646/",
+      "status": 200,
+      "path": "element-summary/646.json.gz",
+      "bytes": 10240,
+      "sha256": "872c7110620c0cbad6aed7ef9e0cca2b9164c35537a3be6d2b103ed6fc41078b"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/647/",
+      "status": 200,
+      "path": "element-summary/647.json.gz",
+      "bytes": 10200,
+      "sha256": "75f4a12464e1ae5b89b330cc4ca094b784161a320f1c9c7aa7d5fe4181dcea10"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/648/",
+      "status": 200,
+      "path": "element-summary/648.json.gz",
+      "bytes": 10236,
+      "sha256": "9caddd0e12b9fd81d1364dbc30d592f02b3159f1e37df14b1505099372c243a0"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/649/",
+      "status": 200,
+      "path": "element-summary/649.json.gz",
+      "bytes": 14895,
+      "sha256": "b7e4edf2528e5a6d05e21e2a02fabd8b224acb7da5ab96a4d862d92aa8313827"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/65/",
+      "status": 200,
+      "path": "element-summary/65.json.gz",
+      "bytes": 12853,
+      "sha256": "4139039e72dea0a6c32aa4fd7b13d1c315e5a54111b114b53180788a134017b6"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/650/",
+      "status": 200,
+      "path": "element-summary/650.json.gz",
+      "bytes": 10237,
+      "sha256": "aa716b17c68bea0e54e57b4395b4b4899ce1e32bb7daa6faf59bc46cced58a4a"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/651/",
+      "status": 200,
+      "path": "element-summary/651.json.gz",
+      "bytes": 10247,
+      "sha256": "6cd0f768c683e7086f5d0d29b50de220707e6f72edd637d71f9165518f885855"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/652/",
+      "status": 200,
+      "path": "element-summary/652.json.gz",
+      "bytes": 10199,
+      "sha256": "2d680194ebb2976548c574c9bf1c231d34e0360b73e4527921f632a0572d7ca6"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/653/",
+      "status": 200,
+      "path": "element-summary/653.json.gz",
+      "bytes": 10229,
+      "sha256": "57674aac9fb269f747be56cd7f4f575971b91a24d1b57f6cb2e6b06a783cf070"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/654/",
+      "status": 200,
+      "path": "element-summary/654.json.gz",
+      "bytes": 10774,
+      "sha256": "6301f1f8925704389c3aa4edb112fcc79e376784024a25cfe602d2fa9cc9f051"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/655/",
+      "status": 200,
+      "path": "element-summary/655.json.gz",
+      "bytes": 9445,
+      "sha256": "22c3024673279badf95f5483355cc59a50df0575d16133a33a3c837cfd7fb1bc"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/656/",
+      "status": 200,
+      "path": "element-summary/656.json.gz",
+      "bytes": 10028,
+      "sha256": "c7d42f077ebc4c2ab738de1e56b47274c3b1e9a3be07da6676e288ebef988abb"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/657/",
+      "status": 200,
+      "path": "element-summary/657.json.gz",
+      "bytes": 10596,
+      "sha256": "e0ee5b98315b7554b3c122122bb355b2b4a86a4a96ea8be3b1c053096ab6a76a"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/658/",
+      "status": 200,
+      "path": "element-summary/658.json.gz",
+      "bytes": 9444,
+      "sha256": "3cf18c3871e058298912f7c32c375eb6e6d3f487247f6d55876d2145de277ff3"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/659/",
+      "status": 200,
+      "path": "element-summary/659.json.gz",
+      "bytes": 9475,
+      "sha256": "fe80c22cd055768a90f4184753a1ec6558547dceef1aeb630422cd840b677754"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/66/",
+      "status": 200,
+      "path": "element-summary/66.json.gz",
+      "bytes": 12859,
+      "sha256": "912a45c7defd05a3d2ed9b95cbfa3b8596063cb58281ff35132a3c0a4250bb58"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/67/",
+      "status": 200,
+      "path": "element-summary/67.json.gz",
+      "bytes": 12325,
+      "sha256": "f5c72033a4f3c7eec20c1a511a85616bfedb4b7001db651c90eff9b46b0370cd"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/68/",
+      "status": 200,
+      "path": "element-summary/68.json.gz",
+      "bytes": 14132,
+      "sha256": "a06e38b34dbd5490cd3648f7f98012c9e6a32cfd50a6bff8aa13a4a3080396a1"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/69/",
+      "status": 200,
+      "path": "element-summary/69.json.gz",
+      "bytes": 13530,
+      "sha256": "9b6f409ec3fe25b643e5c4d6e740c94d63eb8a336a7ec10653b3fd39e3ef9175"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/7/",
+      "status": 200,
+      "path": "element-summary/7.json.gz",
+      "bytes": 13471,
+      "sha256": "69871935f1b161198707a6ab427be6f39b44df3fad1bdec0c76c99303385d30c"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/70/",
+      "status": 200,
+      "path": "element-summary/70.json.gz",
+      "bytes": 13522,
+      "sha256": "33407652a9f4203273f7810ee7ecd4e822a1e1f19a115219fe1425bcf08003bd"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/71/",
+      "status": 200,
+      "path": "element-summary/71.json.gz",
+      "bytes": 16435,
+      "sha256": "1dbfa2c6b1258fc298a6e1a8073689ff4b39185e9fdae8b706818f60f4ecbb7e"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/72/",
+      "status": 200,
+      "path": "element-summary/72.json.gz",
+      "bytes": 14013,
+      "sha256": "9e8924734f1f52d0adf0439c02389cba969acb6b0e3817e2447eb812ee4c2bc1"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/73/",
+      "status": 200,
+      "path": "element-summary/73.json.gz",
+      "bytes": 14078,
+      "sha256": "daccdd4c7a706085ab3dc6dfc07a3fc75a97d3ff845d1a5a6b53384b93c1f628"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/74/",
+      "status": 200,
+      "path": "element-summary/74.json.gz",
+      "bytes": 15230,
+      "sha256": "13d6e81befead09f6ae4809dc80459d4f2e68ce0db644d57cd8b80cfed1eb72e"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/75/",
+      "status": 200,
+      "path": "element-summary/75.json.gz",
+      "bytes": 14073,
+      "sha256": "2a245463a6293c5ec1aedb748fa32e532f1963bfa49127bb158167063cef08d1"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/76/",
+      "status": 200,
+      "path": "element-summary/76.json.gz",
+      "bytes": 12278,
+      "sha256": "3a979903825d21eba01c2ed23d735f0801a190f6a329c4327cb2fb9fb248626a"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/77/",
+      "status": 200,
+      "path": "element-summary/77.json.gz",
+      "bytes": 12291,
+      "sha256": "ebd253fdcd028c74238dbb2735c2d03664be3fed8ed265b809ec1d98ef0fb6c3"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/78/",
+      "status": 200,
+      "path": "element-summary/78.json.gz",
+      "bytes": 12309,
+      "sha256": "24bc6344d1efb22c48489e0e8ab1768ebbfc81d47a09c0b92621a8f6cda9bc86"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/79/",
+      "status": 200,
+      "path": "element-summary/79.json.gz",
+      "bytes": 12936,
+      "sha256": "8060ef701431137ad36160d7e474b2dbbe7c1d9f9f06294087f17326b70cb12f"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/8/",
+      "status": 200,
+      "path": "element-summary/8.json.gz",
+      "bytes": 12928,
+      "sha256": "c2a46f670a2b0343fa71f418d54a503e2b29663de130a5ddb10d56c6060c05e7"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/80/",
+      "status": 200,
+      "path": "element-summary/80.json.gz",
+      "bytes": 13452,
+      "sha256": "47345d6edd009253e050397b9a9ddee7f07e3bde8ccca4c158b1a2e0c990a7bb"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/81/",
+      "status": 200,
+      "path": "element-summary/81.json.gz",
+      "bytes": 11706,
+      "sha256": "79d642e660bd585cd46929004f81bf6740a2b0619a86329313fc95dfe7728fab"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/82/",
+      "status": 200,
+      "path": "element-summary/82.json.gz",
+      "bytes": 15822,
+      "sha256": "2c37a78c5c87a8bd323a29c83715d3ded5b7fa8d5923466d3d8f57f3bae2ea9b"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/83/",
+      "status": 200,
+      "path": "element-summary/83.json.gz",
+      "bytes": 13435,
+      "sha256": "486812b84a0ab1bb677598154f2fc10da0256dea4206ffc3625a51c0ff7c1656"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/84/",
+      "status": 200,
+      "path": "element-summary/84.json.gz",
+      "bytes": 14700,
+      "sha256": "112a7f4eea12c87d8ef273a15703db2d048bdc87415873e8b843bcd0c465ed57"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/85/",
+      "status": 200,
+      "path": "element-summary/85.json.gz",
+      "bytes": 14049,
+      "sha256": "697e5cb9591158eed99556cb3137864c4a1fe845bf221f4204f3af8ef8b76fbe"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/86/",
+      "status": 200,
+      "path": "element-summary/86.json.gz",
+      "bytes": 14105,
+      "sha256": "e895c8e1124c718feafabe746d08ce7f9737bff17d4b8260f7abd3dce17920ef"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/87/",
+      "status": 200,
+      "path": "element-summary/87.json.gz",
+      "bytes": 14696,
+      "sha256": "73910ce51ae4402c3f491366311ccca36ececcc3369b7127c065bc2516cf668f"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/88/",
+      "status": 200,
+      "path": "element-summary/88.json.gz",
+      "bytes": 12927,
+      "sha256": "3048f8487c6fc792f80bf0c0ed8c1ebfcae732960d080c91aef19c19e1f39b69"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/89/",
+      "status": 200,
+      "path": "element-summary/89.json.gz",
+      "bytes": 14649,
+      "sha256": "b93d7994922eb1b5a4d521c8574d3ddc0485690de25221b4855724e16cd23461"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/9/",
+      "status": 200,
+      "path": "element-summary/9.json.gz",
+      "bytes": 12313,
+      "sha256": "0875428f22045de62e55a1051687b0d9ddb351a5f7717f40de0881db32bb11fd"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/90/",
+      "status": 200,
+      "path": "element-summary/90.json.gz",
+      "bytes": 14042,
+      "sha256": "ba6a934a6d5cd9d50ce2b5835f8ce62d7e6e129298f9c1836f12104e4b0e4d9f"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/91/",
+      "status": 200,
+      "path": "element-summary/91.json.gz",
+      "bytes": 14664,
+      "sha256": "5600880307ceaa7c941ce9abea0dd1ed675678a53c09ecd3568b21b4a8717589"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/92/",
+      "status": 200,
+      "path": "element-summary/92.json.gz",
+      "bytes": 13424,
+      "sha256": "61494b199fa91b5a08bace0f908563fdad269da3b85c65abdf7e14d886b138fc"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/93/",
+      "status": 200,
+      "path": "element-summary/93.json.gz",
+      "bytes": 11713,
+      "sha256": "17092e12b8f2ae5b9009368b26200b55c722958d7633f07267640092346f4b7e"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/94/",
+      "status": 200,
+      "path": "element-summary/94.json.gz",
+      "bytes": 14114,
+      "sha256": "f938d48559a4a8a2306522c3a8b86b59e65651f55565c53ec61e73026570cdff"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/95/",
+      "status": 200,
+      "path": "element-summary/95.json.gz",
+      "bytes": 14109,
+      "sha256": "23150e9776f6b2c7d07abc803162d3aee0c8e123d7458642e286744a59c21fe0"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/96/",
+      "status": 200,
+      "path": "element-summary/96.json.gz",
+      "bytes": 14674,
+      "sha256": "f9ce30ec2e8024e7ec02c9a83fc1661600410af50bc84096dddc6711755126fa"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/97/",
+      "status": 200,
+      "path": "element-summary/97.json.gz",
+      "bytes": 14679,
+      "sha256": "4ed334d8604d5fb7ea1c0e5181549146572af218132cfbf2854b381456b3fcff"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/98/",
+      "status": 200,
+      "path": "element-summary/98.json.gz",
+      "bytes": 14706,
+      "sha256": "eea73c12e6e3a2d6e9053d58825fdce0f976eba8ffd9b118d0bac7d3591928be"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/99/",
+      "status": 200,
+      "path": "element-summary/99.json.gz",
+      "bytes": 12258,
+      "sha256": "77bbee75f395836c8bb6ccfcd4d28800eb387c1313cf92e8c664c5217c6e3b0f"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/fixtures/",
+      "status": 200,
+      "path": "fixtures.json.gz",
+      "bytes": 209384,
+      "sha256": "628822222e7731cb0432e38ab829491ce19d632a22a7ee839b900f5f24f7ef2c"
+    }
+  ]
+}
